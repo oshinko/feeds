@@ -10,51 +10,6 @@
 https://raw.githubusercontent.com/oshinko/feeds/main/calendars/boxing.ics
 ```
 
-## 今後決めること
-
-- イベント名の表記ルール
-- 日時未定、会場未定、配信未定の場合の書き方
-
-共通の `.ics` 作成・更新ルールは [iCalendar 作成ルール](icalendar.md) を参照します。
-
-## 既知の試合予定
-
-年の記載がない予定は `2026年` として管理します。時刻未定の予定は終日予定として登録します。
-
-| 日付 | 対象選手 | 対戦相手 |
-| --- | --- | --- |
-| 2026-05-12 | 松本 圭佑 | 龍王 |
-| 2026-06-06 | Kenneth Llover | Michael Angeletti |
-| 2026-06-06 | 矢吹 正道 | Rene Calixto |
-| 2026-06-06 | 横山 葵海 | ビンス・パラス |
-| 2026-06-06 | 李 健太 | Izuki Tomioka |
-| 2026-06-06 | 栗原 慶太 | Shori Umezu |
-| 2026-06-07 | 今永 虎雅、仲里 周磨 | 今永 虎雅 vs 仲里 周磨 |
-| 2026-06-09 | 永田 大士 | Takeru Kobata |
-| 2026-06-10 | 坂井 優太 | Froilan Saludar |
-| 2026-06-13 | Jesse "Bam" Rodríguez | Antonio Vargas |
-| 2026-07-12 | 健文 トーレス | TBA |
-
-## UID
-
-興行単位でイベントを作る場合、UID は次の形式にします。
-
-```text
-boxing-{yyyymmdd}-{slug}@feeds.osnk
-```
-
-例:
-
-```text
-boxing-20260506-inoue-vs-akhmadaliev@feeds.osnk
-```
-
-選手単位でイベントを作る必要がある場合は、BoxRec ID を含めます。
-
-```text
-boxing-{boxrecId}-{yyyymmdd}-{slug}@feeds.osnk
-```
-
 ## 管理対象選手
 
 | 選手名 | BoxRec ID |
@@ -112,3 +67,33 @@ boxing-{boxrecId}-{yyyymmdd}-{slug}@feeds.osnk
 | 鈴木 雅弘 | `846560` |
 | 松本 圭佑 | `944445` |
 | 清水 聡 | `767358` |
+
+## 更新手順
+
+共通の `.ics` 作成・更新ルールは [iCalendar 作成ルール](icalendar.md) を参照します。
+
+既存イベントを更新する場合は、日付、選手名、対戦相手、または `UID` で対象を探します。
+
+```powershell
+Select-String -Path .\calendars\boxing.ics -Pattern "boxing-20260606-","矢吹 正道","Rene Calixto" -Encoding UTF8
+```
+
+## UID
+
+興行単位でイベントを作る場合、UID は次の形式にします。
+
+```text
+boxing-{yyyymmdd}-{slug}@feeds.osnk
+```
+
+例:
+
+```text
+boxing-20260506-inoue-vs-akhmadaliev@feeds.osnk
+```
+
+選手単位でイベントを作る必要がある場合は、BoxRec ID を含めます。
+
+```text
+boxing-{boxrecId}-{yyyymmdd}-{slug}@feeds.osnk
+```
