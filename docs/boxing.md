@@ -24,6 +24,7 @@ https://raw.githubusercontent.com/oshinko/feeds/main/calendars/boxing.ics
 | 日付 | 対象選手 | 対戦相手 |
 | --- | --- | --- |
 | 2026-05-12 | 松本 圭佑 | 龍王 |
+| 2026-06-06 | Kenneth Llover | Michael Angeletti |
 | 2026-06-06 | 矢吹 正道 | Rene Calixto |
 | 2026-06-06 | 横山 葵海 | ビンス・パラス |
 | 2026-06-06 | 李 健太 | Izuki Tomioka |
@@ -31,6 +32,7 @@ https://raw.githubusercontent.com/oshinko/feeds/main/calendars/boxing.ics
 | 2026-06-07 | 今永 虎雅、仲里 周磨 | 今永 虎雅 vs 仲里 周磨 |
 | 2026-06-09 | 永田 大士 | Takeru Kobata |
 | 2026-06-10 | 坂井 優太 | Froilan Saludar |
+| 2026-06-13 | Jesse "Bam" Rodríguez | Antonio Vargas |
 | 2026-07-12 | 健文 トーレス | TBA |
 
 ## UID
@@ -80,6 +82,8 @@ boxing-{boxrecId}-{yyyymmdd}-{slug}@feeds.osnk
 | 吉良 大弥 | `1071015` |
 | 中野 幹士 | `853415` |
 | 健文 トーレス | `233323` |
+| Kenneth Llover | `922936` |
+| Jesse "Bam" Rodríguez | `850733` |
 | 佐々木 尽 | `847229` |
 | 田中 空 | `1243144` |
 | 尾川 堅一 | `535757` |
