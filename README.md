@@ -10,6 +10,7 @@
 | --- | --- |
 | 決算予定 | [calendars/earnings.ics](https://raw.githubusercontent.com/oshinko/feeds/main/calendars/earnings.ics) |
 | ボクシング関連予定 | [calendars/boxing.ics](https://raw.githubusercontent.com/oshinko/feeds/main/calendars/boxing.ics) |
+| 入間市 狭山台4丁目 ごみカレンダー 令和8年度 | [calendars/iruma-sayamadai4-garbage-r8.ics](https://raw.githubusercontent.com/oshinko/feeds/main/calendars/iruma-sayamadai4-garbage-r8.ics) |
 
 ## 購読方法
 
