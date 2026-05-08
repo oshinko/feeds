@@ -8,7 +8,7 @@
 https://raw.githubusercontent.com/oshinko/feeds/main/calendars/earnings.ics
 ```
 
-## 管理対象
+## 監視対象
 
 | 証券コード | 銘柄名 | UID の接頭辞 |
 | --- | --- | --- |

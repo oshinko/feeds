@@ -2,7 +2,7 @@
 
 `calendars/boxing.ics` は、ボクシング関連予定を管理する iCalendar フィードです。
 
-対象選手の試合日程や、その他のボクシング関連イベント日程を管理します。
+監視対象選手の試合日程や、その他のボクシング関連イベント日程を管理します。
 
 ## 購読 URL
 
@@ -10,7 +10,7 @@
 https://raw.githubusercontent.com/oshinko/feeds/main/calendars/boxing.ics
 ```
 
-## 管理対象選手
+## 監視対象選手
 
 | 選手名 | BoxRec ID |
 | --- | --- |
@@ -67,6 +67,12 @@ https://raw.githubusercontent.com/oshinko/feeds/main/calendars/boxing.ics
 | 鈴木 雅弘 | `846560` |
 | 松本 圭佑 | `944445` |
 | 清水 聡 | `767358` |
+
+## スポット登録
+
+監視対象選手以外の試合も、必要に応じてスポットで `calendars/boxing.ics` に登録できます。
+
+スポット登録した試合は、監視対象選手一覧には追加しません。継続的に追跡したい選手だけを監視対象選手に追加します。
 
 ## 更新手順
 
