@@ -39,6 +39,7 @@ https://raw.githubusercontent.com/oshinko/feeds/main/calendars/boxing.ics
 | 健文 トーレス | `233323` |
 | Kenneth Llover | `922936` |
 | Jesse "Bam" Rodríguez | `850733` |
+| 武藤 涼太 | `1135139` |
 | 佐々木 尽 | `847229` |
 | 田中 空 | `1243144` |
 | 尾川 堅一 | `535757` |
@@ -81,7 +82,7 @@ https://raw.githubusercontent.com/oshinko/feeds/main/calendars/boxing.ics
 既存イベントを更新する場合は、日付、選手名、対戦相手、または `UID` で対象を探します。
 
 ```powershell
-Select-String -Path .\calendars\boxing.ics -Pattern "boxing-20260606-","矢吹 正道","Rene Calixto" -Encoding UTF8
+Select-String -Path .\\calendars\\boxing.ics -Pattern "boxing-20260606-","矢吹 正道","Rene Calixto" -Encoding UTF8
 ```
 
 ## UID
