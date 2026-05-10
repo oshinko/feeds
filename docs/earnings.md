@@ -25,6 +25,23 @@ https://raw.githubusercontent.com/oshinko/feeds/main/calendars/earnings.ics
 | 2914 | JT | `earnings-2914-` |
 | 1605 | INPEX | `earnings-1605-` |
 | 8006 | ユアサ・フナショク | `earnings-8006-` |
+| 285A | キオクシアホールディングス | `earnings-285A-` |
+
+## 関連テーマ
+
+### AI / データセンター / 米国ビッグテック
+
+キオクシアの決算を見るときは、NAND、enterprise SSD、AI サーバー、hyperscaler CAPEX、クラウド投資の文脈で、米国ビッグテックの設備投資やデータセンター関連コメントも参考にします。
+
+主な関連企業:
+
+| ティッカー | 企業名 | 見るポイント |
+| --- | --- | --- |
+| MSFT | Microsoft | Azure、AI データセンター投資、クラウド CAPEX |
+| GOOGL | Alphabet | Google Cloud、TPU/AI インフラ、データセンター投資 |
+| AMZN | Amazon | AWS、AI/クラウド投資、データセンター CAPEX |
+| META | Meta Platforms | AI インフラ投資、GPU/サーバー投資、広告需要 |
+| NVDA | NVIDIA | AI サーバー需要、データセンター向け半導体、サプライチェーン |
 
 ## 更新手順
 
