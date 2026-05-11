@@ -21,3 +21,10 @@
 - [iCalendar 作成ルール](docs/icalendar.md)
 - [決算フィード](docs/earnings.md)
 - [ボクシングフィード](docs/boxing.md)
+
+## データ
+
+| 内容 | URL |
+| --- | --- |
+| 監視銘柄 JSON | [data/stocks.json](https://raw.githubusercontent.com/oshinko/feeds/main/data/stocks.json) |
+| 監視銘柄 CSV | [data/stocks.csv](https://raw.githubusercontent.com/oshinko/feeds/main/data/stocks.csv) |

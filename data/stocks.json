@@ -1,0 +1,158 @@
+{
+  "items": [
+    {
+      "symbol": "8306",
+      "market": "JP",
+      "name": "三菱UFJフィナンシャル・グループ",
+      "segment": "core",
+      "memo": "メガバンク、金利、金融環境"
+    },
+    {
+      "symbol": "4063",
+      "market": "JP",
+      "name": "信越化学工業",
+      "segment": "core",
+      "memo": "半導体材料、塩ビ、シリコンウェハ"
+    },
+    {
+      "symbol": "3436",
+      "market": "JP",
+      "name": "SUMCO",
+      "segment": "core",
+      "memo": "シリコンウェハ、半導体市況"
+    },
+    {
+      "symbol": "4004",
+      "market": "JP",
+      "name": "レゾナックHD",
+      "segment": "core",
+      "memo": "半導体材料、後工程、化学"
+    },
+    {
+      "symbol": "6963",
+      "market": "JP",
+      "name": "ローム",
+      "segment": "core",
+      "memo": "パワー半導体、車載半導体"
+    },
+    {
+      "symbol": "6890",
+      "market": "JP",
+      "name": "フェローテック",
+      "segment": "core",
+      "memo": "半導体製造装置部材、石英、セラミックス"
+    },
+    {
+      "symbol": "6525",
+      "market": "JP",
+      "name": "KOKUSAI ELECTRIC",
+      "segment": "core",
+      "memo": "半導体製造装置、成膜装置"
+    },
+    {
+      "symbol": "5803",
+      "market": "JP",
+      "name": "フジクラ",
+      "segment": "core",
+      "memo": "データセンター、光ファイバー、電線"
+    },
+    {
+      "symbol": "5016",
+      "market": "JP",
+      "name": "JX金属",
+      "segment": "core",
+      "memo": "非鉄、半導体材料、銅"
+    },
+    {
+      "symbol": "1812",
+      "market": "JP",
+      "name": "鹿島建設",
+      "segment": "core",
+      "memo": "建設、データセンター、インフラ"
+    },
+    {
+      "symbol": "2914",
+      "market": "JP",
+      "name": "JT",
+      "segment": "core",
+      "memo": "ディフェンシブ、高配当、為替"
+    },
+    {
+      "symbol": "1605",
+      "market": "JP",
+      "name": "INPEX",
+      "segment": "core",
+      "memo": "原油、天然ガス、資源"
+    },
+    {
+      "symbol": "8006",
+      "market": "JP",
+      "name": "ユアサ・フナショク",
+      "segment": "core",
+      "memo": "食品卸、不動産、内需"
+    },
+    {
+      "symbol": "285A",
+      "market": "JP",
+      "name": "キオクシアホールディングス",
+      "segment": "radar",
+      "memo": "NAND、enterprise SSD、AI ストレージ。単元価格が高く、現時点では参考・見守り対象"
+    },
+    {
+      "symbol": "NVDA",
+      "market": "US",
+      "name": "NVIDIA",
+      "segment": "radar",
+      "memo": "AI GPU、データセンター向け半導体、AI サーバー需要の先行指標"
+    },
+    {
+      "symbol": "MSFT",
+      "market": "US",
+      "name": "Microsoft",
+      "segment": "radar",
+      "memo": "Azure、OpenAI 関連、AI データセンター投資、クラウド CAPEX"
+    },
+    {
+      "symbol": "GOOGL",
+      "market": "US",
+      "name": "Alphabet",
+      "segment": "radar",
+      "memo": "Google Cloud、TPU、AI インフラ、データセンター投資"
+    },
+    {
+      "symbol": "AMZN",
+      "market": "US",
+      "name": "Amazon",
+      "segment": "radar",
+      "memo": "AWS、hyperscaler CAPEX、クラウド需要"
+    },
+    {
+      "symbol": "META",
+      "market": "US",
+      "name": "Meta Platforms",
+      "segment": "radar",
+      "memo": "AI インフラ投資、GPU/サーバー投資、広告需要"
+    },
+    {
+      "symbol": "MU",
+      "market": "US",
+      "name": "Micron Technology",
+      "segment": "radar",
+      "memo": "DRAM/NAND/SSD 市況、メモリ価格、データセンター向けメモリ需要"
+    },
+    {
+      "symbol": "SNDK",
+      "market": "US",
+      "name": "Sandisk",
+      "segment": "radar",
+      "memo": "NAND/SSD 競合、データセンター SSD 需要、高付加価値化"
+    },
+    {
+      "symbol": "ORCL",
+      "market": "US",
+      "name": "Oracle",
+      "segment": "radar",
+      "memo": "OCI、AI クラウド需要、hyperscaler 以外の AI インフラ投資"
+    }
+  ]
+}
