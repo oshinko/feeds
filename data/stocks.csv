@@ -11,7 +11,6 @@ symbol,market,name,segment,memo
 1812,JP,鹿島建設,core,建設、データセンター、インフラ
 2914,JP,JT,core,ディフェンシブ、高配当、為替
 1605,JP,INPEX,core,原油、天然ガス、資源
-8006,JP,ユアサ・フナショク,core,食品卸、不動産、内需
 285A,JP,キオクシアホールディングス,radar,NAND、enterprise SSD、AI ストレージ。単元価格が高く、現時点では参考・見守り対象
 NVDA,US,NVIDIA,radar,AI GPU、データセンター向け半導体、AI サーバー需要の先行指標
 MSFT,US,Microsoft,radar,Azure、OpenAI 関連、AI データセンター投資、クラウド CAPEX
