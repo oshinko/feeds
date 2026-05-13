@@ -99,6 +99,69 @@
       "memo": "印刷・情報コミュニケーション、生活・産業、エレクトロニクス、半導体関連部材"
     },
     {
+      "symbol": "8035",
+      "market": "JP",
+      "name": "東京エレクトロン",
+      "segment": "radar",
+      "memo": "半導体製造装置、前工程、WFE、市況感応度"
+    },
+    {
+      "symbol": "6315",
+      "market": "JP",
+      "name": "TOWA",
+      "segment": "radar",
+      "memo": "半導体後工程、モールディング装置、先端パッケージング"
+    },
+    {
+      "symbol": "4186",
+      "market": "JP",
+      "name": "東京応化工業",
+      "segment": "radar",
+      "memo": "半導体材料、フォトレジスト、EUV関連"
+    },
+    {
+      "symbol": "6723",
+      "market": "JP",
+      "name": "ルネサスエレクトロニクス",
+      "segment": "radar",
+      "memo": "車載・産業向け半導体、MCU、アナログ半導体"
+    },
+    {
+      "symbol": "6857",
+      "market": "JP",
+      "name": "アドバンテスト",
+      "segment": "radar",
+      "memo": "半導体テスター、AI半導体、HBM、先端ロジック"
+    },
+    {
+      "symbol": "6920",
+      "market": "JP",
+      "name": "レーザーテック",
+      "segment": "radar",
+      "memo": "半導体検査装置、EUVマスク検査、先端工程"
+    },
+    {
+      "symbol": "6146",
+      "market": "JP",
+      "name": "ディスコ",
+      "segment": "radar",
+      "memo": "半導体後工程、切断・研削・研磨装置、先端パッケージング"
+    },
+    {
+      "symbol": "7735",
+      "market": "JP",
+      "name": "SCREENホールディングス",
+      "segment": "radar",
+      "memo": "半導体製造装置、洗浄装置、前工程"
+    },
+    {
+      "symbol": "6526",
+      "market": "JP",
+      "name": "ソシオネクスト",
+      "segment": "radar",
+      "memo": "ファブレス半導体、SoC、AI・車載・データセンター関連"
+    },
+    {
       "symbol": "NVDA",
       "market": "US",
       "name": "NVIDIA",
