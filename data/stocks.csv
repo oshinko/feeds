@@ -13,6 +13,15 @@ symbol,market,name,segment,memo
 1605,JP,INPEX,core,原油、天然ガス、資源
 285A,JP,キオクシアホールディングス,radar,NAND、enterprise SSD、AI ストレージ。単元価格が高く、現時点では参考・見守り対象
 7911,JP,TOPPANホールディングス,radar,印刷・情報コミュニケーション、生活・産業、エレクトロニクス、半導体関連部材
+8035,JP,東京エレクトロン,radar,半導体製造装置、前工程、WFE、市況感応度
+6315,JP,TOWA,radar,半導体後工程、モールディング装置、先端パッケージング
+4186,JP,東京応化工業,radar,半導体材料、フォトレジスト、EUV関連
+6723,JP,ルネサスエレクトロニクス,radar,車載・産業向け半導体、MCU、アナログ半導体
+6857,JP,アドバンテスト,radar,半導体テスター、AI半導体、HBM、先端ロジック
+6920,JP,レーザーテック,radar,半導体検査装置、EUVマスク検査、先端工程
+6146,JP,ディスコ,radar,半導体後工程、切断・研削・研磨装置、先端パッケージング
+7735,JP,SCREENホールディングス,radar,半導体製造装置、洗浄装置、前工程
+6526,JP,ソシオネクスト,radar,ファブレス半導体、SoC、AI・車載・データセンター関連
 NVDA,US,NVIDIA,radar,AI GPU、データセンター向け半導体、AI サーバー需要の先行指標
 MSFT,US,Microsoft,radar,Azure、OpenAI 関連、AI データセンター投資、クラウド CAPEX
 GOOGL,US,Alphabet,radar,Google Cloud、TPU、AI インフラ、データセンター投資
