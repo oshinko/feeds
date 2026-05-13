@@ -92,6 +92,13 @@
       "memo": "NAND、enterprise SSD、AI ストレージ。単元価格が高く、現時点では参考・見守り対象"
     },
     {
+      "symbol": "4062",
+      "market": "JP",
+      "name": "イビデン",
+      "segment": "radar",
+      "memo": "半導体パッケージ基板、ICパッケージ、AIサーバー向け基板"
+    },
+    {
       "symbol": "7911",
       "market": "JP",
       "name": "TOPPANホールディングス",
