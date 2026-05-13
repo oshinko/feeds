@@ -92,6 +92,13 @@
       "memo": "NAND、enterprise SSD、AI ストレージ。単元価格が高く、現時点では参考・見守り対象"
     },
     {
+      "symbol": "7911",
+      "market": "JP",
+      "name": "TOPPANホールディングス",
+      "segment": "radar",
+      "memo": "印刷・情報コミュニケーション、生活・産業、エレクトロニクス、半導体関連部材"
+    },
+    {
       "symbol": "NVDA",
       "market": "US",
       "name": "NVIDIA",
