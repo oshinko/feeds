@@ -1,33 +1,33 @@
-symbol,market,name,segment,memo
-8306,JP,三菱UFJフィナンシャル・グループ,core,メガバンク、金利、金融環境
-4063,JP,信越化学工業,core,半導体材料、塩ビ、シリコンウェハ
-3436,JP,SUMCO,core,シリコンウェハ、半導体市況
-4004,JP,レゾナックHD,core,半導体材料、後工程、化学
-6963,JP,ローム,core,パワー半導体、車載半導体
-6890,JP,フェローテック,core,半導体製造装置部材、石英、セラミックス
-6525,JP,KOKUSAI ELECTRIC,core,半導体製造装置、成膜装置
-5803,JP,フジクラ,core,データセンター、光ファイバー、電線
-5016,JP,JX金属,core,非鉄、半導体材料、銅
-1812,JP,鹿島建設,core,建設、データセンター、インフラ
-2914,JP,JT,core,ディフェンシブ、高配当、為替
-1605,JP,INPEX,core,原油、天然ガス、資源
-285A,JP,キオクシアホールディングス,radar,NAND、enterprise SSD、AI ストレージ。単元価格が高く、現時点では参考・見守り対象
-4062,JP,イビデン,radar,半導体パッケージ基板、ICパッケージ、AIサーバー向け基板
-7911,JP,TOPPANホールディングス,radar,印刷・情報コミュニケーション、生活・産業、エレクトロニクス、半導体関連部材
-8035,JP,東京エレクトロン,radar,半導体製造装置、前工程、WFE、市況感応度
-6315,JP,TOWA,radar,半導体後工程、モールディング装置、先端パッケージング
-4186,JP,東京応化工業,radar,半導体材料、フォトレジスト、EUV関連
-6723,JP,ルネサスエレクトロニクス,radar,車載・産業向け半導体、MCU、アナログ半導体
-6857,JP,アドバンテスト,radar,半導体テスター、AI半導体、HBM、先端ロジック
-6920,JP,レーザーテック,radar,半導体検査装置、EUVマスク検査、先端工程
-6146,JP,ディスコ,radar,半導体後工程、切断・研削・研磨装置、先端パッケージング
-7735,JP,SCREENホールディングス,radar,半導体製造装置、洗浄装置、前工程
-6526,JP,ソシオネクスト,radar,ファブレス半導体、SoC、AI・車載・データセンター関連
-NVDA,US,NVIDIA,radar,AI GPU、データセンター向け半導体、AI サーバー需要の先行指標
-MSFT,US,Microsoft,radar,Azure、OpenAI 関連、AI データセンター投資、クラウド CAPEX
-GOOGL,US,Alphabet,radar,Google Cloud、TPU、AI インフラ、データセンター投資
-AMZN,US,Amazon,radar,AWS、hyperscaler CAPEX、クラウド需要
-META,US,Meta Platforms,radar,AI インフラ投資、GPU/サーバー投資、広告需要
-MU,US,Micron Technology,radar,DRAM/NAND/SSD 市況、メモリ価格、データセンター向けメモリ需要
-SNDK,US,Sandisk,radar,NAND/SSD 競合、データセンター SSD 需要、高付加価値化
-ORCL,US,Oracle,radar,OCI、AI クラウド需要、hyperscaler 以外の AI インフラ投資
+symbol,market,name,segment,tier,memo
+8306,JP,三菱UFJフィナンシャル・グループ,core,1,メガバンク、金利、金融環境
+4063,JP,信越化学工業,core,1,半導体材料、塩ビ、シリコンウェハ
+3436,JP,SUMCO,core,2,シリコンウェハ、半導体市況
+4004,JP,レゾナックHD,core,1,半導体材料、後工程、化学
+6963,JP,ローム,core,2,パワー半導体、車載半導体
+6890,JP,フェローテック,core,1,半導体製造装置部材、石英、セラミックス
+6525,JP,KOKUSAI ELECTRIC,core,1,半導体製造装置、成膜装置
+5803,JP,フジクラ,core,1,データセンター、光ファイバー、電線
+5016,JP,JX金属,core,1,非鉄、半導体材料、銅
+1812,JP,鹿島建設,core,1,建設、データセンター、インフラ
+2914,JP,JT,core,1,ディフェンシブ、高配当、為替
+1605,JP,INPEX,core,1,原油、天然ガス、資源
+285A,JP,キオクシアホールディングス,radar,1,NAND、enterprise SSD、AI ストレージ。単元価格が高く、現時点では参考・見守り対象
+4062,JP,イビデン,radar,1,半導体パッケージ基板、ICパッケージ、AIサーバー向け基板
+7911,JP,TOPPANホールディングス,radar,1,印刷・情報コミュニケーション、生活・産業、エレクトロニクス、半導体関連部材
+8035,JP,東京エレクトロン,radar,1,半導体製造装置、前工程、WFE、市況感応度
+6315,JP,TOWA,radar,1,半導体後工程、モールディング装置、先端パッケージング
+4186,JP,東京応化工業,core,1,半導体材料、フォトレジスト、EUV関連
+6723,JP,ルネサスエレクトロニクス,radar,1,車載・産業向け半導体、MCU、アナログ半導体
+6857,JP,アドバンテスト,radar,1,半導体テスター、AI半導体、HBM、先端ロジック
+6920,JP,レーザーテック,radar,1,半導体検査装置、EUVマスク検査、先端工程
+6146,JP,ディスコ,radar,1,半導体後工程、切断・研削・研磨装置、先端パッケージング
+7735,JP,SCREENホールディングス,radar,1,半導体製造装置、洗浄装置、前工程
+6526,JP,ソシオネクスト,radar,1,ファブレス半導体、SoC、AI・車載・データセンター関連
+NVDA,US,NVIDIA,radar,1,AI GPU、データセンター向け半導体、AI サーバー需要の先行指標
+MSFT,US,Microsoft,radar,1,Azure、OpenAI 関連、AI データセンター投資、クラウド CAPEX
+GOOGL,US,Alphabet,radar,1,Google Cloud、TPU、AI インフラ、データセンター投資
+AMZN,US,Amazon,radar,1,AWS、hyperscaler CAPEX、クラウド需要
+META,US,Meta Platforms,radar,1,AI インフラ投資、GPU/サーバー投資、広告需要
+MU,US,Micron Technology,radar,1,DRAM/NAND/SSD 市況、メモリ価格、データセンター向けメモリ需要
+SNDK,US,Sandisk,radar,1,NAND/SSD 競合、データセンター SSD 需要、高付加価値化
+ORCL,US,Oracle,radar,1,OCI、AI クラウド需要、hyperscaler 以外の AI インフラ投資
