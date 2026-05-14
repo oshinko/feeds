@@ -5,6 +5,7 @@
       "market": "JP",
       "name": "三菱UFJフィナンシャル・グループ",
       "segment": "core",
+      "tier": 1,
       "memo": "メガバンク、金利、金融環境"
     },
     {
@@ -12,6 +13,7 @@
       "market": "JP",
       "name": "信越化学工業",
       "segment": "core",
+      "tier": 1,
       "memo": "半導体材料、塩ビ、シリコンウェハ"
     },
     {
@@ -19,6 +21,7 @@
       "market": "JP",
       "name": "SUMCO",
       "segment": "core",
+      "tier": 2,
       "memo": "シリコンウェハ、半導体市況"
     },
     {
@@ -26,6 +29,7 @@
       "market": "JP",
       "name": "レゾナックHD",
       "segment": "core",
+      "tier": 1,
       "memo": "半導体材料、後工程、化学"
     },
     {
@@ -33,6 +37,7 @@
       "market": "JP",
       "name": "ローム",
       "segment": "core",
+      "tier": 2,
       "memo": "パワー半導体、車載半導体"
     },
     {
@@ -40,6 +45,7 @@
       "market": "JP",
       "name": "フェローテック",
       "segment": "core",
+      "tier": 1,
       "memo": "半導体製造装置部材、石英、セラミックス"
     },
     {
@@ -47,6 +53,7 @@
       "market": "JP",
       "name": "KOKUSAI ELECTRIC",
       "segment": "core",
+      "tier": 1,
       "memo": "半導体製造装置、成膜装置"
     },
     {
@@ -54,6 +61,7 @@
       "market": "JP",
       "name": "フジクラ",
       "segment": "core",
+      "tier": 1,
       "memo": "データセンター、光ファイバー、電線"
     },
     {
@@ -61,6 +69,7 @@
       "market": "JP",
       "name": "JX金属",
       "segment": "core",
+      "tier": 1,
       "memo": "非鉄、半導体材料、銅"
     },
     {
@@ -68,6 +77,7 @@
       "market": "JP",
       "name": "鹿島建設",
       "segment": "core",
+      "tier": 1,
       "memo": "建設、データセンター、インフラ"
     },
     {
@@ -75,6 +85,7 @@
       "market": "JP",
       "name": "JT",
       "segment": "core",
+      "tier": 1,
       "memo": "ディフェンシブ、高配当、為替"
     },
     {
@@ -82,6 +93,7 @@
       "market": "JP",
       "name": "INPEX",
       "segment": "core",
+      "tier": 1,
       "memo": "原油、天然ガス、資源"
     },
     {
@@ -89,6 +101,7 @@
       "market": "JP",
       "name": "キオクシアホールディングス",
       "segment": "radar",
+      "tier": 1,
       "memo": "NAND、enterprise SSD、AI ストレージ。単元価格が高く、現時点では参考・見守り対象"
     },
     {
@@ -96,6 +109,7 @@
       "market": "JP",
       "name": "イビデン",
       "segment": "radar",
+      "tier": 1,
       "memo": "半導体パッケージ基板、ICパッケージ、AIサーバー向け基板"
     },
     {
@@ -103,6 +117,7 @@
       "market": "JP",
       "name": "TOPPANホールディングス",
       "segment": "radar",
+      "tier": 1,
       "memo": "印刷・情報コミュニケーション、生活・産業、エレクトロニクス、半導体関連部材"
     },
     {
@@ -110,6 +125,7 @@
       "market": "JP",
       "name": "東京エレクトロン",
       "segment": "radar",
+      "tier": 1,
       "memo": "半導体製造装置、前工程、WFE、市況感応度"
     },
     {
@@ -117,13 +133,15 @@
       "market": "JP",
       "name": "TOWA",
       "segment": "radar",
+      "tier": 1,
       "memo": "半導体後工程、モールディング装置、先端パッケージング"
     },
     {
       "symbol": "4186",
       "market": "JP",
       "name": "東京応化工業",
-      "segment": "radar",
+      "segment": "core",
+      "tier": 1,
       "memo": "半導体材料、フォトレジスト、EUV関連"
     },
     {
@@ -131,6 +149,7 @@
       "market": "JP",
       "name": "ルネサスエレクトロニクス",
       "segment": "radar",
+      "tier": 1,
       "memo": "車載・産業向け半導体、MCU、アナログ半導体"
     },
     {
@@ -138,6 +157,7 @@
       "market": "JP",
       "name": "アドバンテスト",
       "segment": "radar",
+      "tier": 1,
       "memo": "半導体テスター、AI半導体、HBM、先端ロジック"
     },
     {
@@ -145,6 +165,7 @@
       "market": "JP",
       "name": "レーザーテック",
       "segment": "radar",
+      "tier": 1,
       "memo": "半導体検査装置、EUVマスク検査、先端工程"
     },
     {
@@ -152,6 +173,7 @@
       "market": "JP",
       "name": "ディスコ",
       "segment": "radar",
+      "tier": 1,
       "memo": "半導体後工程、切断・研削・研磨装置、先端パッケージング"
     },
     {
@@ -159,6 +181,7 @@
       "market": "JP",
       "name": "SCREENホールディングス",
       "segment": "radar",
+      "tier": 1,
       "memo": "半導体製造装置、洗浄装置、前工程"
     },
     {
@@ -166,6 +189,7 @@
       "market": "JP",
       "name": "ソシオネクスト",
       "segment": "radar",
+      "tier": 1,
       "memo": "ファブレス半導体、SoC、AI・車載・データセンター関連"
     },
     {
@@ -173,6 +197,7 @@
       "market": "US",
       "name": "NVIDIA",
       "segment": "radar",
+      "tier": 1,
       "memo": "AI GPU、データセンター向け半導体、AI サーバー需要の先行指標"
     },
     {
@@ -180,6 +205,7 @@
       "market": "US",
       "name": "Microsoft",
       "segment": "radar",
+      "tier": 1,
       "memo": "Azure、OpenAI 関連、AI データセンター投資、クラウド CAPEX"
     },
     {
@@ -187,6 +213,7 @@
       "market": "US",
       "name": "Alphabet",
       "segment": "radar",
+      "tier": 1,
       "memo": "Google Cloud、TPU、AI インフラ、データセンター投資"
     },
     {
@@ -194,6 +221,7 @@
       "market": "US",
       "name": "Amazon",
       "segment": "radar",
+      "tier": 1,
       "memo": "AWS、hyperscaler CAPEX、クラウド需要"
     },
     {
@@ -201,6 +229,7 @@
       "market": "US",
       "name": "Meta Platforms",
       "segment": "radar",
+      "tier": 1,
       "memo": "AI インフラ投資、GPU/サーバー投資、広告需要"
     },
     {
@@ -208,6 +237,7 @@
       "market": "US",
       "name": "Micron Technology",
       "segment": "radar",
+      "tier": 1,
       "memo": "DRAM/NAND/SSD 市況、メモリ価格、データセンター向けメモリ需要"
     },
     {
@@ -215,6 +245,7 @@
       "market": "US",
       "name": "Sandisk",
       "segment": "radar",
+      "tier": 1,
       "memo": "NAND/SSD 競合、データセンター SSD 需要、高付加価値化"
     },
     {
@@ -222,6 +253,7 @@
       "market": "US",
       "name": "Oracle",
       "segment": "radar",
+      "tier": 1,
       "memo": "OCI、AI クラウド需要、hyperscaler 以外の AI インフラ投資"
     }
   ]
