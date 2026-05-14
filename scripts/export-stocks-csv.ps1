@@ -5,7 +5,7 @@ $jsonPath = Join-Path $repoRoot "data\stocks.json"
 $csvPath = Join-Path $repoRoot "data\stocks.csv"
 
 $data = Get-Content $jsonPath -Encoding UTF8 -Raw | ConvertFrom-Json
-$columns = @("symbol", "market", "name", "segment", "memo")
+$columns = @("symbol", "market", "name", "segment", "tier", "memo")
 
 function Convert-ToCsvField {
     param([AllowNull()][object] $Value)
