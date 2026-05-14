@@ -43,6 +43,8 @@ Select-String -Path .\calendars\earnings.ics -Pattern "earnings-4063-","4063" -E
 .\scripts\export-stocks-csv.ps1
 ```
 
+CSV は `market`, `segment`, `tier`, `symbol` の昇順で出力します。
+
 ## UID
 
 UID は次の形式にします。

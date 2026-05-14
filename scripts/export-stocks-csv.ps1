@@ -29,7 +29,7 @@ function Convert-ToCsvField {
 $lines = New-Object System.Collections.Generic.List[string]
 $lines.Add(($columns -join ","))
 
-foreach ($stock in $data.items) {
+foreach ($stock in ($data.items | Sort-Object market, segment, tier, symbol)) {
     $fields = foreach ($column in $columns) {
         Convert-ToCsvField $stock.$column
     }
