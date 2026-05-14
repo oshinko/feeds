@@ -17,6 +17,10 @@ https://raw.githubusercontent.com/oshinko/feeds/main/calendars/earnings.ics
 | `core` | 独自インデックスの算出対象。継続評価する中核銘柄 |
 | `radar` | 参考・見守り対象。周辺テーマや比較対象として見る銘柄 |
 
+| field | 意味 |
+| --- | --- |
+| `tier` | 銘柄の階層を表す数値。値が小さいほど上位の階層として扱います |
+
 ## 関連テーマ
 
 ### AI / データセンター / 米国ビッグテック
