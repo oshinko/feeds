@@ -100,7 +100,7 @@
       "symbol": "285A",
       "market": "JP",
       "name": "キオクシアホールディングス",
-      "segment": "radar",
+      "segment": "core",
       "tier": 1,
       "memo": "NAND、enterprise SSD、AI ストレージ。単元価格が高く、現時点では参考・見守り対象"
     },
@@ -124,7 +124,7 @@
       "symbol": "8035",
       "market": "JP",
       "name": "東京エレクトロン",
-      "segment": "radar",
+      "segment": "core",
       "tier": 1,
       "memo": "半導体製造装置、前工程、WFE、市況感応度"
     },
