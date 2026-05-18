@@ -1,5 +1,4 @@
 symbol,market,name,segment,tier,memo
-1605,JP,INPEX,core,1,原油、天然ガス、資源
 1812,JP,鹿島建設,core,1,建設、データセンター、インフラ
 285A,JP,キオクシアホールディングス,core,1,NAND、enterprise SSD、AI ストレージ。単元価格が高く、現時点では参考・見守り対象
 2914,JP,JT,core,1,ディフェンシブ、高配当、為替
@@ -14,6 +13,7 @@ symbol,market,name,segment,tier,memo
 8306,JP,三菱UFJフィナンシャル・グループ,core,1,メガバンク、金利、金融環境
 3436,JP,SUMCO,core,2,シリコンウェハ、半導体市況
 6963,JP,ローム,core,2,パワー半導体、車載半導体
+1605,JP,INPEX,radar,1,原油、天然ガス、資源
 4062,JP,イビデン,radar,1,半導体パッケージ基板、ICパッケージ、AIサーバー向け基板
 6146,JP,ディスコ,radar,1,半導体後工程、切断・研削・研磨装置、先端パッケージング
 6315,JP,TOWA,radar,1,半導体後工程、モールディング装置、先端パッケージング
