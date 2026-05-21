@@ -40,6 +40,7 @@ https://raw.githubusercontent.com/oshinko/feeds/main/calendars/boxing.ics
 | Kenneth Llover | `922936` |
 | Jesse "Bam" Rodríguez | `850733` |
 | 武藤 涼太 | `1135139` |
+| 藤木 勇我 | `1198198` |
 | 佐々木 尽 | `847229` |
 | 田中 空 | `1243144` |
 | 尾川 堅一 | `535757` |
