@@ -20,6 +20,7 @@ https://raw.githubusercontent.com/oshinko/feeds/main/calendars/earnings.ics
 | field | 意味 |
 | --- | --- |
 | `tier` | 銘柄の階層を表す数値。値が小さいほど上位の階層として扱います |
+| `tags` | 銘柄に付与する補助的な分類です。JSON では配列、CSV ではカンマ区切りの文字列として扱います |
 
 ## 関連テーマ
 
