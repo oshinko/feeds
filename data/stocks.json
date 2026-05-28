@@ -111,6 +111,15 @@
       "memo": "ディフェンシブ、高配当、為替"
     },
     {
+      "symbol": "7130",
+      "market": "JP",
+      "name": "ヤマエグループホールディングス",
+      "segment": "core",
+      "tier": 2,
+      "tags": [],
+      "memo": "食品卸、流通、九州地盤、M&A"
+    },
+    {
       "symbol": "1605",
       "market": "JP",
       "name": "INPEX",
