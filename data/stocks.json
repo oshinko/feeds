@@ -186,8 +186,8 @@
       "symbol": "6723",
       "market": "JP",
       "name": "ルネサスエレクトロニクス",
-      "segment": "radar",
-      "tier": 1,
+      "segment": "core",
+      "tier": 2,
       "tags": [],
       "memo": "車載・産業向け半導体、MCU、アナログ半導体"
     },
