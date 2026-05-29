@@ -23,7 +23,7 @@
       "market": "JP",
       "name": "SUMCO",
       "segment": "core",
-      "tier": 3,
+      "tier": 4,
       "tags": [],
       "memo": "シリコンウェハ、半導体市況"
     },
@@ -41,7 +41,7 @@
       "market": "JP",
       "name": "ローム",
       "segment": "core",
-      "tier": 2,
+      "tier": 3,
       "tags": [],
       "memo": "パワー半導体、車載半導体"
     },
@@ -50,7 +50,7 @@
       "market": "JP",
       "name": "フェローテック",
       "segment": "core",
-      "tier": 2,
+      "tier": 3,
       "tags": [],
       "memo": "半導体製造装置部材、石英、セラミックス"
     },
@@ -59,7 +59,7 @@
       "market": "JP",
       "name": "KOKUSAI ELECTRIC",
       "segment": "core",
-      "tier": 2,
+      "tier": 3,
       "tags": [],
       "memo": "半導体製造装置、成膜装置"
     },
@@ -68,7 +68,7 @@
       "market": "JP",
       "name": "フジクラ",
       "segment": "core",
-      "tier": 2,
+      "tier": 4,
       "tags": [],
       "memo": "データセンター、光ファイバー、電線"
     },
@@ -86,7 +86,7 @@
       "market": "JP",
       "name": "JX金属",
       "segment": "core",
-      "tier": 3,
+      "tier": 4,
       "tags": [],
       "memo": "非鉄、半導体材料、銅"
     },
@@ -95,7 +95,7 @@
       "market": "JP",
       "name": "鹿島建設",
       "segment": "core",
-      "tier": 2,
+      "tier": 4,
       "tags": [],
       "memo": "建設、データセンター、インフラ"
     },
