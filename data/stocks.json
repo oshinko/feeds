@@ -68,7 +68,7 @@
       "market": "JP",
       "name": "フジクラ",
       "segment": "core",
-      "tier": 1,
+      "tier": 2,
       "tags": [],
       "memo": "データセンター、光ファイバー、電線"
     },
@@ -95,7 +95,7 @@
       "market": "JP",
       "name": "鹿島建設",
       "segment": "core",
-      "tier": 1,
+      "tier": 2,
       "tags": [],
       "memo": "建設、データセンター、インフラ"
     },
