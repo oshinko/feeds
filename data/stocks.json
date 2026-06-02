@@ -167,6 +167,15 @@
       "memo": "半導体製造装置、前工程、WFE、市況感応度"
     },
     {
+      "symbol": "6981",
+      "market": "JP",
+      "name": "村田製作所",
+      "segment": "core",
+      "tier": 1,
+      "tags": [],
+      "memo": "電子部品、MLCC、スマートフォン、車載"
+    },
+    {
       "symbol": "6315",
       "market": "JP",
       "name": "TOWA",
