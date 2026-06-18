@@ -70,7 +70,7 @@
       "market": "JP",
       "name": "フジクラ",
       "segment": "core",
-      "tier": 4,
+      "tier": 2,
       "tags": [],
       "memo": "データセンター、光ファイバー、電線"
     },
@@ -117,7 +117,7 @@
       "market": "JP",
       "name": "ヤマエグループホールディングス",
       "segment": "core",
-      "tier": 2,
+      "tier": 3,
       "tags": [],
       "memo": "食品卸、流通、九州地盤、M&A"
     },
