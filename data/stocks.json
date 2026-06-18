@@ -242,8 +242,8 @@
       "symbol": "7735",
       "market": "JP",
       "name": "SCREENホールディングス",
-      "segment": "radar",
-      "tier": 1,
+      "segment": "core",
+      "tier": 2,
       "tags": [],
       "memo": "半導体製造装置、洗浄装置、前工程"
     },
