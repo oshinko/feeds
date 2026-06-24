@@ -16,7 +16,7 @@
       "market": "JP",
       "name": "信越化学工業",
       "segment": "core",
-      "tier": 1,
+      "tier": 2,
       "tags": [],
       "memo": "半導体材料、塩ビ、シリコンウェハ"
     },
@@ -25,7 +25,7 @@
       "market": "JP",
       "name": "SUMCO",
       "segment": "core",
-      "tier": 4,
+      "tier": 3,
       "tags": [],
       "memo": "シリコンウェハ、半導体市況"
     },
@@ -61,7 +61,7 @@
       "market": "JP",
       "name": "KOKUSAI ELECTRIC",
       "segment": "core",
-      "tier": 1,
+      "tier": 2,
       "tags": [],
       "memo": "半導体製造装置、成膜装置"
     },
@@ -88,7 +88,7 @@
       "market": "JP",
       "name": "JX金属",
       "segment": "core",
-      "tier": 4,
+      "tier": 3,
       "tags": [],
       "memo": "非鉄、半導体材料、銅"
     },
@@ -111,6 +111,15 @@
         "ディフェンシブ"
       ],
       "memo": "ディフェンシブ、高配当、為替"
+    },
+    {
+      "symbol": "3099",
+      "market": "JP",
+      "name": "三越伊勢丹ホールディングス",
+      "segment": "core",
+      "tier": 1,
+      "tags": [],
+      "memo": "百貨店、インバウンド、富裕層消費、国内消費"
     },
     {
       "symbol": "7130",
@@ -189,9 +198,18 @@
       "market": "JP",
       "name": "東京応化工業",
       "segment": "core",
-      "tier": 1,
+      "tier": 2,
       "tags": [],
       "memo": "半導体材料、フォトレジスト、EUV関連"
+    },
+    {
+      "symbol": "6752",
+      "market": "JP",
+      "name": "パナソニック ホールディングス",
+      "segment": "core",
+      "tier": 1,
+      "tags": [],
+      "memo": "総合電機、車載電池、空調、住宅設備、電子部品"
     },
     {
       "symbol": "6674",
