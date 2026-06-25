@@ -28,6 +28,12 @@ https://raw.githubusercontent.com/oshinko/feeds/main/calendars/earnings.ics
 
 キオクシアの決算を見るときは、NAND、enterprise SSD、AI サーバー、hyperscaler CAPEX、クラウド投資の文脈で、米国ビッグテックの設備投資やデータセンター関連コメントも参考にします。関連企業は `data/stocks.json` で `segment: "radar"` として管理します。
 
+### マクロイベント / 金融政策
+
+`calendars/earnings.ics` はファイル名上は決算フィードですが、購読先を増やさずに運用するため、監視銘柄に影響しやすいマクロイベントや金融政策イベントも同じファイルで管理します。
+
+米国の CPI、PCE、雇用統計、GDP、耐久財受注、FOMC、日銀金融政策決定会合など、金利、ドル円、NASDAQ、半導体・AI関連株に影響しやすいイベントを登録対象とします。
+
 ## 更新手順
 
 共通の `.ics` 作成・更新ルールは [iCalendar 作成ルール](icalendar.md) を参照します。
@@ -58,6 +64,8 @@ CSV は `market`, `segment`, `tier`, `symbol` の昇順で出力します。
 
 米国株のイベントは、米国現地日付、市場引け後・寄り前などのタイミング、日本時間での該当日を `DESCRIPTION` に明記します。
 
+マクロイベントは、公式機関の発表予定、中央銀行カレンダー、または信頼できる経済カレンダーで確認できたものを登録します。同時刻に複数の重要指標が発表される場合は、カレンダーの視認性を優先して 1 つの複合イベントとして登録します。
+
 イベントは可能な限り `DTSTART` の時系列順に並べます。同じ日のイベントは、時刻付きイベント、終日イベント、関連イベントの見やすさを考慮して配置します。
 
 既存イベントの `目安` 表記は、公式情報で確認できた場合に外します。公式確認できない場合は `目安` のまま残すか、不要になった時点で削除候補とします。
@@ -81,6 +89,16 @@ dividend-exdate-{symbol}-{yyyymmdd}@feeds.osnk
 
 # 株式分割などのコーポレートアクション
 corporate-action-{symbol}-{yyyymmdd}-{slug}@feeds.osnk
+
+# 米国マクロ指標
+macro-us-{slug}-{yyyymmdd}@feeds.osnk
+
+# 日本マクロ指標
+macro-jp-{slug}-{yyyymmdd}@feeds.osnk
+
+# 金融政策
+fomc-{yyyymmdd}@feeds.osnk
+boj-mpm-{yyyymmdd}@feeds.osnk
 ```
 
 例:
@@ -93,6 +111,10 @@ earnings-flash-6146-20260706@feeds.osnk
 earnings-briefing-6146-20261023@feeds.osnk
 dividend-exdate-2914-20260629@feeds.osnk
 corporate-action-8035-20261001-stock-split@feeds.osnk
+macro-us-pce-gdp-claims-durable-20260625@feeds.osnk
+macro-us-cpi-20260715@feeds.osnk
+fomc-20260729@feeds.osnk
+boj-mpm-20260731@feeds.osnk
 ```
 
 `symbol` は銘柄マスターの `symbol` を使います。日本株は東証コード、米国株はティッカーを使います。
