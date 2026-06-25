@@ -10,7 +10,7 @@ https://raw.githubusercontent.com/oshinko/feeds/main/calendars/earnings.ics
 
 ## 監視対象
 
-監視対象銘柄の正は [data/stocks.json](../data/stocks.json) です。`items` 配列に銘柄を定義します。スプレッドシート等で扱うための CSV として [data/stocks.csv](../data/stocks.csv) も併置します。
+監視対象銘柄の正本は [data/stocks.json](../data/stocks.json) です。`items` 配列に銘柄を定義します。スプレッドシート等で扱うための CSV として [data/stocks.csv](../data/stocks.csv) も併置します。
 
 | segment | 意味 |
 | --- | --- |
@@ -38,7 +38,7 @@ https://raw.githubusercontent.com/oshinko/feeds/main/calendars/earnings.ics
 Select-String -Path .\calendars\earnings.ics -Pattern "earnings-4063-","4063" -Encoding UTF8
 ```
 
-監視対象銘柄を更新する場合は、`data/stocks.json` を更新し、CSV を再生成します。`data/stocks.json` を正とし、`data/stocks.csv` は外部表示・スプレッドシート利用のための派生データとして扱います。
+監視対象銘柄を更新する場合は、`data/stocks.json` を更新し、CSV を再生成します。`data/stocks.json` を正本とし、`data/stocks.csv` は外部表示・スプレッドシート利用のための派生データとして扱います。
 
 ```powershell
 .\scripts\export-stocks-csv.ps1
@@ -50,9 +50,13 @@ CSV は `market`, `segment`, `tier`, `symbol` の昇順で出力します。
 
 決算イベントは原則として、公式 IR カレンダー、適時開示、または信頼できる決算カレンダーで確認できたものを登録します。時刻が未確認の場合は終日イベントとし、`SUMMARY` または `DESCRIPTION` に時刻未定であることを明記します。
 
-配当権利落日は、原則として銘柄別イベントとして登録します。市場全体の包括イベントとしての配当権利落日は、個別銘柄の確認が不要な場合を除き登録しません。
+決算発表前の売上高・出荷額速報など、決算を読むうえで重要な先行指標が公式予定として確認できる場合は、決算関連イベントとして登録します。
 
-株式分割などのコーポレートアクションは、効力発生日など投資行動や確認行動に影響する日付が明確なものを登録します。自社株買いなどの期間イベントは、通常は開始日・終了予定日を機械的には登録せず、重要度が高い場合のみ登録します。
+配当権利落日は、監視銘柄ごとの必須確認対象とし、原則として銘柄別イベントとして登録します。市場全体の包括イベントとしての配当権利落日は、個別銘柄の確認が不要な場合を除き登録しません。
+
+株式分割、スピンオフ、ティッカー変更、上場廃止、市場変更などのコーポレートアクションは、効力発生日など投資行動や確認行動に影響する日付が明確なものを登録します。自社株買いなどの期間イベントは、通常は開始日・終了予定日を機械的には登録せず、重要度が高い場合のみ登録します。
+
+米国株のイベントは、米国現地日付、市場引け後・寄り前などのタイミング、日本時間での該当日を `DESCRIPTION` に明記します。
 
 イベントは可能な限り `DTSTART` の時系列順に並べます。同じ日のイベントは、時刻付きイベント、終日イベント、関連イベントの見やすさを考慮して配置します。
 
@@ -65,6 +69,12 @@ UID はイベント種別ごとに次の形式にします。
 ```text
 # 決算
 earnings-{symbol}-{yyyymmdd}@feeds.osnk
+
+# 決算関連の速報
+earnings-flash-{symbol}-{yyyymmdd}@feeds.osnk
+
+# 決算説明会
+earnings-briefing-{symbol}-{yyyymmdd}@feeds.osnk
 
 # 配当権利落日
 dividend-exdate-{symbol}-{yyyymmdd}@feeds.osnk
@@ -79,6 +89,8 @@ corporate-action-{symbol}-{yyyymmdd}-{slug}@feeds.osnk
 earnings-4063-20260428@feeds.osnk
 earnings-285A-20260515@feeds.osnk
 earnings-NVDA-20260520@feeds.osnk
+earnings-flash-6146-20260706@feeds.osnk
+earnings-briefing-6146-20261023@feeds.osnk
 dividend-exdate-2914-20260629@feeds.osnk
 corporate-action-8035-20261001-stock-split@feeds.osnk
 ```
