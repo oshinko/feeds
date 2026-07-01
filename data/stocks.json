@@ -1,6 +1,15 @@
 {
   "items": [
     {
+      "symbol": "213A",
+      "market": "JP",
+      "name": "上場インデックスファンド日経半導体株",
+      "segment": "core",
+      "tier": 1,
+      "tags": [],
+      "memo": "ETF、日経半導体株指数、国内半導体セクター、分散投資"
+    },
+    {
       "symbol": "285A",
       "market": "JP",
       "name": "キオクシアホールディングス",
