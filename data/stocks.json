@@ -1,116 +1,13 @@
 {
   "items": [
     {
-      "symbol": "8306",
+      "symbol": "285A",
       "market": "JP",
-      "name": "三菱UFJフィナンシャル・グループ",
-      "segment": "core",
-      "tier": 1,
-      "tags": [
-        "ディフェンシブ"
-      ],
-      "memo": "メガバンク、金利、金融環境"
-    },
-    {
-      "symbol": "4063",
-      "market": "JP",
-      "name": "信越化学工業",
-      "segment": "core",
-      "tier": 2,
-      "tags": [],
-      "memo": "半導体材料、塩ビ、シリコンウェハ"
-    },
-    {
-      "symbol": "3436",
-      "market": "JP",
-      "name": "SUMCO",
-      "segment": "core",
-      "tier": 3,
-      "tags": [],
-      "memo": "シリコンウェハ、半導体市況"
-    },
-    {
-      "symbol": "4004",
-      "market": "JP",
-      "name": "レゾナックHD",
+      "name": "キオクシアホールディングス",
       "segment": "core",
       "tier": 1,
       "tags": [],
-      "memo": "半導体材料、後工程、化学"
-    },
-    {
-      "symbol": "6963",
-      "market": "JP",
-      "name": "ローム",
-      "segment": "core",
-      "tier": 3,
-      "tags": [],
-      "memo": "パワー半導体、車載半導体"
-    },
-    {
-      "symbol": "6890",
-      "market": "JP",
-      "name": "フェローテック",
-      "segment": "core",
-      "tier": 3,
-      "tags": [],
-      "memo": "半導体製造装置部材、石英、セラミックス"
-    },
-    {
-      "symbol": "6525",
-      "market": "JP",
-      "name": "KOKUSAI ELECTRIC",
-      "segment": "core",
-      "tier": 2,
-      "tags": [],
-      "memo": "半導体製造装置、成膜装置"
-    },
-    {
-      "symbol": "5803",
-      "market": "JP",
-      "name": "フジクラ",
-      "segment": "core",
-      "tier": 2,
-      "tags": [],
-      "memo": "データセンター、光ファイバー、電線"
-    },
-    {
-      "symbol": "5801",
-      "market": "JP",
-      "name": "古河電気工業",
-      "segment": "core",
-      "tier": 1,
-      "tags": [],
-      "memo": "電線、光ファイバー、データセンター、電力インフラ"
-    },
-    {
-      "symbol": "5016",
-      "market": "JP",
-      "name": "JX金属",
-      "segment": "core",
-      "tier": 3,
-      "tags": [],
-      "memo": "非鉄、半導体材料、銅"
-    },
-    {
-      "symbol": "1812",
-      "market": "JP",
-      "name": "鹿島建設",
-      "segment": "core",
-      "tier": 4,
-      "tags": [],
-      "memo": "建設、データセンター、インフラ"
-    },
-    {
-      "symbol": "2914",
-      "market": "JP",
-      "name": "JT",
-      "segment": "core",
-      "tier": 3,
-      "tags": [
-        "ディフェンシブ"
-      ],
-      "memo": "ディフェンシブ、高配当、為替"
+      "memo": "NAND、enterprise SSD、AI ストレージ。単元価格が高く、現時点では参考・見守り対象"
     },
     {
       "symbol": "3099",
@@ -122,13 +19,260 @@
       "memo": "百貨店、インバウンド、富裕層消費、国内消費"
     },
     {
+      "symbol": "4004",
+      "market": "JP",
+      "name": "レゾナックHD",
+      "segment": "core",
+      "tier": 1,
+      "tags": [],
+      "memo": "半導体材料、後工程、化学"
+    },
+    {
+      "symbol": "6752",
+      "market": "JP",
+      "name": "パナソニック ホールディングス",
+      "segment": "core",
+      "tier": 1,
+      "tags": [],
+      "memo": "総合電機、車載電池、空調、住宅設備、電子部品"
+    },
+    {
+      "symbol": "8035",
+      "market": "JP",
+      "name": "東京エレクトロン",
+      "segment": "core",
+      "tier": 1,
+      "tags": [],
+      "memo": "半導体製造装置、前工程、WFE、市況感応度"
+    },
+    {
+      "symbol": "8306",
+      "market": "JP",
+      "name": "三菱UFJフィナンシャル・グループ",
+      "segment": "core",
+      "tier": 1,
+      "tags": [
+        "ディフェンシブ"
+      ],
+      "memo": "メガバンク、金利、金融環境"
+    },
+    {
+      "symbol": "7762",
+      "market": "JP",
+      "name": "シチズン時計",
+      "segment": "core",
+      "tier": 1,
+      "tags": [],
+      "memo": "時計、工作機械、電子部品、インバウンド、為替"
+    },
+    {
+      "symbol": "6981",
+      "market": "JP",
+      "name": "村田製作所",
+      "segment": "core",
+      "tier": 2,
+      "tags": [],
+      "memo": "電子部品、MLCC、スマートフォン、車載"
+    },
+    {
+      "symbol": "6723",
+      "market": "JP",
+      "name": "ルネサスエレクトロニクス",
+      "segment": "core",
+      "tier": 2,
+      "tags": [],
+      "memo": "車載・産業向け半導体、MCU、アナログ半導体"
+    },
+    {
+      "symbol": "7735",
+      "market": "JP",
+      "name": "SCREENホールディングス",
+      "segment": "core",
+      "tier": 2,
+      "tags": [],
+      "memo": "半導体製造装置、洗浄装置、前工程"
+    },
+    {
+      "symbol": "6952",
+      "market": "JP",
+      "name": "カシオ計算機",
+      "segment": "core",
+      "tier": 2,
+      "tags": [],
+      "memo": "時計、教育・楽器、電子機器、為替"
+    },
+    {
+      "symbol": "8050",
+      "market": "JP",
+      "name": "セイコーグループ",
+      "segment": "core",
+      "tier": 2,
+      "tags": [],
+      "memo": "時計、電子デバイス、システムソリューション、半導体部品"
+    },
+    {
+      "symbol": "5801",
+      "market": "JP",
+      "name": "古河電気工業",
+      "segment": "core",
+      "tier": 3,
+      "tags": [],
+      "memo": "電線、光ファイバー、データセンター、電力インフラ"
+    },
+    {
+      "symbol": "4186",
+      "market": "JP",
+      "name": "東京応化工業",
+      "segment": "core",
+      "tier": 3,
+      "tags": [],
+      "memo": "半導体材料、フォトレジスト、EUV関連"
+    },
+    {
+      "symbol": "5803",
+      "market": "JP",
+      "name": "フジクラ",
+      "segment": "core",
+      "tier": 3,
+      "tags": [],
+      "memo": "データセンター、光ファイバー、電線"
+    },
+    {
+      "symbol": "6525",
+      "market": "JP",
+      "name": "KOKUSAI ELECTRIC",
+      "segment": "core",
+      "tier": 3,
+      "tags": [],
+      "memo": "半導体製造装置、成膜装置"
+    },
+    {
+      "symbol": "6674",
+      "market": "JP",
+      "name": "ジーエス・ユアサ コーポレーション",
+      "segment": "core",
+      "tier": 3,
+      "tags": [],
+      "memo": "蓄電池、車載電池、産業用電池、電力インフラ"
+    },
+    {
+      "symbol": "6890",
+      "market": "JP",
+      "name": "フェローテック",
+      "segment": "core",
+      "tier": 3,
+      "tags": [],
+      "memo": "半導体製造装置部材、石英、セラミックス"
+    },
+    {
+      "symbol": "6963",
+      "market": "JP",
+      "name": "ローム",
+      "segment": "core",
+      "tier": 3,
+      "tags": [],
+      "memo": "パワー半導体、車載半導体"
+    },
+    {
+      "symbol": "8366",
+      "market": "JP",
+      "name": "滋賀銀行",
+      "segment": "core",
+      "tier": 3,
+      "tags": [],
+      "memo": "地銀、滋賀県地盤、金利、地域金融"
+    },
+    {
+      "symbol": "8362",
+      "market": "JP",
+      "name": "福井銀行",
+      "segment": "core",
+      "tier": 3,
+      "tags": [],
+      "memo": "地銀、福井県地盤、金利、地域金融"
+    },
+    {
+      "symbol": "8392",
+      "market": "JP",
+      "name": "大分銀行",
+      "segment": "core",
+      "tier": 3,
+      "tags": [],
+      "memo": "地銀、大分県地盤、金利、地域金融"
+    },
+    {
+      "symbol": "8344",
+      "market": "JP",
+      "name": "山形銀行",
+      "segment": "core",
+      "tier": 3,
+      "tags": [],
+      "memo": "地銀、山形県地盤、金利、地域金融"
+    },
+    {
+      "symbol": "8368",
+      "market": "JP",
+      "name": "百五銀行",
+      "segment": "core",
+      "tier": 3,
+      "tags": [],
+      "memo": "地銀、三重県地盤、金利、地域金融"
+    },
+    {
+      "symbol": "4063",
+      "market": "JP",
+      "name": "信越化学工業",
+      "segment": "core",
+      "tier": 4,
+      "tags": [],
+      "memo": "半導体材料、塩ビ、シリコンウェハ"
+    },
+    {
+      "symbol": "2914",
+      "market": "JP",
+      "name": "JT",
+      "segment": "core",
+      "tier": 4,
+      "tags": [
+        "ディフェンシブ"
+      ],
+      "memo": "ディフェンシブ、高配当、為替"
+    },
+    {
+      "symbol": "3436",
+      "market": "JP",
+      "name": "SUMCO",
+      "segment": "core",
+      "tier": 4,
+      "tags": [],
+      "memo": "シリコンウェハ、半導体市況"
+    },
+    {
+      "symbol": "5016",
+      "market": "JP",
+      "name": "JX金属",
+      "segment": "core",
+      "tier": 4,
+      "tags": [],
+      "memo": "非鉄、半導体材料、銅"
+    },
+    {
       "symbol": "7130",
       "market": "JP",
       "name": "ヤマエグループホールディングス",
       "segment": "core",
-      "tier": 3,
+      "tier": 5,
       "tags": [],
       "memo": "食品卸、流通、九州地盤、M&A"
+    },
+    {
+      "symbol": "1812",
+      "market": "JP",
+      "name": "鹿島建設",
+      "segment": "core",
+      "tier": 5,
+      "tags": [],
+      "memo": "建設、データセンター、インフラ"
     },
     {
       "symbol": "1605",
@@ -138,15 +282,6 @@
       "tier": 1,
       "tags": [],
       "memo": "原油、天然ガス、資源"
-    },
-    {
-      "symbol": "285A",
-      "market": "JP",
-      "name": "キオクシアホールディングス",
-      "segment": "core",
-      "tier": 1,
-      "tags": [],
-      "memo": "NAND、enterprise SSD、AI ストレージ。単元価格が高く、現時点では参考・見守り対象"
     },
     {
       "symbol": "4062",
@@ -167,24 +302,6 @@
       "memo": "印刷・情報コミュニケーション、生活・産業、エレクトロニクス、半導体関連部材"
     },
     {
-      "symbol": "8035",
-      "market": "JP",
-      "name": "東京エレクトロン",
-      "segment": "core",
-      "tier": 1,
-      "tags": [],
-      "memo": "半導体製造装置、前工程、WFE、市況感応度"
-    },
-    {
-      "symbol": "6981",
-      "market": "JP",
-      "name": "村田製作所",
-      "segment": "core",
-      "tier": 1,
-      "tags": [],
-      "memo": "電子部品、MLCC、スマートフォン、車載"
-    },
-    {
       "symbol": "6315",
       "market": "JP",
       "name": "TOWA",
@@ -192,42 +309,6 @@
       "tier": 1,
       "tags": [],
       "memo": "半導体後工程、モールディング装置、先端パッケージング"
-    },
-    {
-      "symbol": "4186",
-      "market": "JP",
-      "name": "東京応化工業",
-      "segment": "core",
-      "tier": 2,
-      "tags": [],
-      "memo": "半導体材料、フォトレジスト、EUV関連"
-    },
-    {
-      "symbol": "6752",
-      "market": "JP",
-      "name": "パナソニック ホールディングス",
-      "segment": "core",
-      "tier": 1,
-      "tags": [],
-      "memo": "総合電機、車載電池、空調、住宅設備、電子部品"
-    },
-    {
-      "symbol": "6674",
-      "market": "JP",
-      "name": "ジーエス・ユアサ コーポレーション",
-      "segment": "core",
-      "tier": 2,
-      "tags": [],
-      "memo": "蓄電池、車載電池、産業用電池、電力インフラ"
-    },
-    {
-      "symbol": "6723",
-      "market": "JP",
-      "name": "ルネサスエレクトロニクス",
-      "segment": "core",
-      "tier": 2,
-      "tags": [],
-      "memo": "車載・産業向け半導体、MCU、アナログ半導体"
     },
     {
       "symbol": "6857",
@@ -255,15 +336,6 @@
       "tier": 1,
       "tags": [],
       "memo": "半導体後工程、切断・研削・研磨装置、先端パッケージング"
-    },
-    {
-      "symbol": "7735",
-      "market": "JP",
-      "name": "SCREENホールディングス",
-      "segment": "core",
-      "tier": 2,
-      "tags": [],
-      "memo": "半導体製造装置、洗浄装置、前工程"
     },
     {
       "symbol": "6526",
