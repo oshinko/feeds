@@ -36,6 +36,14 @@ https://raw.githubusercontent.com/oshinko/feeds/main/calendars/earnings.ics
 
 米国雇用統計は、米労働省 BLS の `Schedule of Releases for the Employment Situation` で発表日と時刻を確認して登録します。通常は第1金曜日が多いものの、祝日などにより木曜日や翌週にずれる場合があるため、機械的な曜日ルールではなく BLS 公式スケジュールを優先します。
 
+米国 CPI は、米労働省 BLS の `Schedule of Releases for the Consumer Price Index` で発表日と時刻を確認して登録します。総合 CPI と Core CPI、住居費、サービス価格を主な確認対象とします。
+
+米国 PCE と GDP は、米商務省 BEA の `Release Schedule` で発表日と時刻を確認して登録します。Personal Income and Outlays と GDP が同日同時刻に発表される場合は、カレンダーの視認性を優先して `米PCE・GDP 発表` の複合イベントとして登録します。
+
+FOMC は、FRB 公式の `FOMC Meetings` カレンダーで会合日を確認して登録します。原則として米国現地の会合最終日を UID に使い、日本時間では結果発表・記者会見を確認する未明の時刻で登録します。SEP（Summary of Economic Projections、ドットチャート）公表対象会合は `SUMMARY` に `SEP` を含めます。
+
+日銀金融政策決定会合は、日銀公式の Monetary Policy Meetings の予定表で会合日と結果公表日を確認して登録します。原則として結果公表日を終日イベントとして登録します。展望レポート公表対象会合は `DESCRIPTION` に明記します。
+
 ## 更新手順
 
 共通の `.ics` 作成・更新ルールは [iCalendar 作成ルール](icalendar.md) を参照します。
@@ -69,6 +77,14 @@ CSV は `market`, `segment`, `tier`, `symbol` の昇順で出力します。
 マクロイベントは、公式機関の発表予定、中央銀行カレンダー、または信頼できる経済カレンダーで確認できたものを登録します。同時刻に複数の重要指標が発表される場合は、カレンダーの視認性を優先して 1 つの複合イベントとして登録します。
 
 米国雇用統計を登録する場合は、`SUMMARY` を `米雇用統計 発表` とし、`DESCRIPTION` に対象月、BLS 発表予定、米東部時間、日本時間、NFP、失業率、平均時給、労働参加率、過去分改定を確認する旨を記載します。米国夏時間中は原則 21:30 JST、標準時間中は原則 22:30 JST として登録します。
+
+米国 CPI を登録する場合は、`SUMMARY` を `米CPI 発表` とし、`DESCRIPTION` に対象月、BLS 発表予定、米東部時間、日本時間、総合 CPI、Core CPI、住居費、サービス価格を確認する旨を記載します。米国夏時間中は原則 21:30 JST、標準時間中は原則 22:30 JST として登録します。
+
+米国 PCE と GDP を複合イベントとして登録する場合は、`SUMMARY` を `米PCE・GDP 発表` とし、`DESCRIPTION` に対象月、Personal Income and Outlays、PCE Price Index、Core PCE、対象四半期の GDP 速報値・改定値・確報値を記載します。
+
+FOMC を登録する場合は、`SUMMARY` を `FOMC 結果発表` とし、SEP 公表対象会合では `FOMC 結果発表・SEP` とします。`DESCRIPTION` には会合日、SEP の有無、米国現地日付、日本時間、政策金利、声明文、記者会見を確認する旨を記載します。
+
+日銀金融政策決定会合を登録する場合は、`SUMMARY` を `日銀 金融政策決定会合 結果公表` とし、`DESCRIPTION` に会合日、政策変更の有無、総裁記者会見、展望レポート公表対象かどうかを記載します。
 
 イベントは可能な限り `DTSTART` の時系列順に並べます。同じ日のイベントは、時刻付きイベント、終日イベント、関連イベントの見やすさを考慮して配置します。
 
@@ -116,8 +132,9 @@ earnings-briefing-6146-20261023@feeds.osnk
 dividend-exdate-2914-20260629@feeds.osnk
 corporate-action-8035-20261001-stock-split@feeds.osnk
 macro-us-pce-gdp-claims-durable-20260625@feeds.osnk
-macro-us-cpi-20260715@feeds.osnk
+macro-us-cpi-20260714@feeds.osnk
 macro-us-employment-situation-20260702@feeds.osnk
+macro-us-pce-gdp-20260730@feeds.osnk
 fomc-20260729@feeds.osnk
 boj-mpm-20260731@feeds.osnk
 ```
