@@ -34,6 +34,8 @@ https://raw.githubusercontent.com/oshinko/feeds/main/calendars/earnings.ics
 
 米国の CPI、PCE、雇用統計、GDP、耐久財受注、FOMC、日銀金融政策決定会合など、金利、ドル円、NASDAQ、半導体・AI関連株に影響しやすいイベントを登録対象とします。
 
+米国雇用統計は、米労働省 BLS の `Schedule of Releases for the Employment Situation` で発表日と時刻を確認して登録します。通常は第1金曜日が多いものの、祝日などにより木曜日や翌週にずれる場合があるため、機械的な曜日ルールではなく BLS 公式スケジュールを優先します。
+
 ## 更新手順
 
 共通の `.ics` 作成・更新ルールは [iCalendar 作成ルール](icalendar.md) を参照します。
@@ -65,6 +67,8 @@ CSV は `market`, `segment`, `tier`, `symbol` の昇順で出力します。
 米国株のイベントは、米国現地日付、市場引け後・寄り前などのタイミング、日本時間での該当日を `DESCRIPTION` に明記します。
 
 マクロイベントは、公式機関の発表予定、中央銀行カレンダー、または信頼できる経済カレンダーで確認できたものを登録します。同時刻に複数の重要指標が発表される場合は、カレンダーの視認性を優先して 1 つの複合イベントとして登録します。
+
+米国雇用統計を登録する場合は、`SUMMARY` を `米雇用統計 発表` とし、`DESCRIPTION` に対象月、BLS 発表予定、米東部時間、日本時間、NFP、失業率、平均時給、労働参加率、過去分改定を確認する旨を記載します。米国夏時間中は原則 21:30 JST、標準時間中は原則 22:30 JST として登録します。
 
 イベントは可能な限り `DTSTART` の時系列順に並べます。同じ日のイベントは、時刻付きイベント、終日イベント、関連イベントの見やすさを考慮して配置します。
 
@@ -113,6 +117,7 @@ dividend-exdate-2914-20260629@feeds.osnk
 corporate-action-8035-20261001-stock-split@feeds.osnk
 macro-us-pce-gdp-claims-durable-20260625@feeds.osnk
 macro-us-cpi-20260715@feeds.osnk
+macro-us-employment-situation-20260702@feeds.osnk
 fomc-20260729@feeds.osnk
 boj-mpm-20260731@feeds.osnk
 ```
