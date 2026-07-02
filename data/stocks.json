@@ -19,6 +19,15 @@
       "memo": "NAND、enterprise SSD、AI ストレージ。単元価格が高く、現時点では参考・見守り対象"
     },
     {
+      "symbol": "2802",
+      "market": "JP",
+      "name": "味の素",
+      "segment": "core",
+      "tier": 1,
+      "tags": [],
+      "memo": "食品、調味料、アミノ酸、ヘルスケア、半導体材料"
+    },
+    {
       "symbol": "3099",
       "market": "JP",
       "name": "三越伊勢丹ホールディングス",
@@ -46,6 +55,33 @@
       "memo": "総合電機、車載電池、空調、住宅設備、電子部品"
     },
     {
+      "symbol": "6981",
+      "market": "JP",
+      "name": "村田製作所",
+      "segment": "core",
+      "tier": 1,
+      "tags": [],
+      "memo": "電子部品、MLCC、スマートフォン、車載"
+    },
+    {
+      "symbol": "7735",
+      "market": "JP",
+      "name": "SCREENホールディングス",
+      "segment": "core",
+      "tier": 1,
+      "tags": [],
+      "memo": "半導体製造装置、洗浄装置、前工程"
+    },
+    {
+      "symbol": "7762",
+      "market": "JP",
+      "name": "シチズン時計",
+      "segment": "core",
+      "tier": 1,
+      "tags": [],
+      "memo": "時計、工作機械、電子部品、インバウンド、為替"
+    },
+    {
       "symbol": "8035",
       "market": "JP",
       "name": "東京エレクトロン",
@@ -66,22 +102,13 @@
       "memo": "メガバンク、金利、金融環境"
     },
     {
-      "symbol": "7762",
+      "symbol": "6525",
       "market": "JP",
-      "name": "シチズン時計",
-      "segment": "core",
-      "tier": 1,
-      "tags": [],
-      "memo": "時計、工作機械、電子部品、インバウンド、為替"
-    },
-    {
-      "symbol": "6981",
-      "market": "JP",
-      "name": "村田製作所",
+      "name": "KOKUSAI ELECTRIC",
       "segment": "core",
       "tier": 2,
       "tags": [],
-      "memo": "電子部品、MLCC、スマートフォン、車載"
+      "memo": "半導体製造装置、成膜装置"
     },
     {
       "symbol": "6723",
@@ -91,15 +118,6 @@
       "tier": 2,
       "tags": [],
       "memo": "車載・産業向け半導体、MCU、アナログ半導体"
-    },
-    {
-      "symbol": "7735",
-      "market": "JP",
-      "name": "SCREENホールディングス",
-      "segment": "core",
-      "tier": 2,
-      "tags": [],
-      "memo": "半導体製造装置、洗浄装置、前工程"
     },
     {
       "symbol": "6952",
@@ -145,15 +163,6 @@
       "tier": 3,
       "tags": [],
       "memo": "データセンター、光ファイバー、電線"
-    },
-    {
-      "symbol": "6525",
-      "market": "JP",
-      "name": "KOKUSAI ELECTRIC",
-      "segment": "core",
-      "tier": 3,
-      "tags": [],
-      "memo": "半導体製造装置、成膜装置"
     },
     {
       "symbol": "6674",
@@ -226,6 +235,15 @@
       "tier": 3,
       "tags": [],
       "memo": "地銀、三重県地盤、金利、地域金融"
+    },
+    {
+      "symbol": "6315",
+      "market": "JP",
+      "name": "TOWA",
+      "segment": "core",
+      "tier": 4,
+      "tags": [],
+      "memo": "半導体後工程、モールディング装置、先端パッケージング"
     },
     {
       "symbol": "4063",
@@ -309,15 +327,6 @@
       "tier": 1,
       "tags": [],
       "memo": "印刷・情報コミュニケーション、生活・産業、エレクトロニクス、半導体関連部材"
-    },
-    {
-      "symbol": "6315",
-      "market": "JP",
-      "name": "TOWA",
-      "segment": "radar",
-      "tier": 1,
-      "tags": [],
-      "memo": "半導体後工程、モールディング装置、先端パッケージング"
     },
     {
       "symbol": "6857",
