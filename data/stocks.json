@@ -302,67 +302,76 @@
       "memo": "建設、データセンター、インフラ"
     },
     {
-      "symbol": "1605",
+      "symbol": "285A",
       "market": "JP",
-      "name": "INPEX",
+      "name": "キオクシアホールディングス",
       "segment": "radar",
       "tier": 1,
       "tags": [],
-      "memo": "原油、天然ガス、資源"
+      "memo": "NAND、enterprise SSD、AI ストレージ"
     },
     {
-      "symbol": "4062",
+      "symbol": "4004",
       "market": "JP",
-      "name": "イビデン",
+      "name": "レゾナックHD",
       "segment": "radar",
       "tier": 1,
       "tags": [],
-      "memo": "半導体パッケージ基板、ICパッケージ、AIサーバー向け基板"
+      "memo": "半導体材料、後工程、化学"
     },
     {
-      "symbol": "7911",
+      "symbol": "8035",
       "market": "JP",
-      "name": "TOPPANホールディングス",
+      "name": "東京エレクトロン",
       "segment": "radar",
       "tier": 1,
       "tags": [],
-      "memo": "印刷・情報コミュニケーション、生活・産業、エレクトロニクス、半導体関連部材"
+      "memo": "半導体製造装置、前工程、WFE、市況感応度"
     },
     {
-      "symbol": "6857",
+      "symbol": "6981",
       "market": "JP",
-      "name": "アドバンテスト",
+      "name": "村田製作所",
       "segment": "radar",
       "tier": 1,
       "tags": [],
-      "memo": "半導体テスター、AI半導体、HBM、先端ロジック"
+      "memo": "電子部品、MLCC、スマートフォン、車載"
     },
     {
-      "symbol": "6920",
+      "symbol": "5801",
       "market": "JP",
-      "name": "レーザーテック",
+      "name": "古河電気工業",
       "segment": "radar",
       "tier": 1,
       "tags": [],
-      "memo": "半導体検査装置、EUVマスク検査、先端工程"
+      "memo": "電線、光ファイバー、データセンター、電力インフラ"
     },
     {
-      "symbol": "6146",
+      "symbol": "5803",
       "market": "JP",
-      "name": "ディスコ",
+      "name": "フジクラ",
       "segment": "radar",
       "tier": 1,
       "tags": [],
-      "memo": "半導体後工程、切断・研削・研磨装置、先端パッケージング"
+      "memo": "データセンター、光ファイバー、電線"
     },
     {
-      "symbol": "6526",
+      "symbol": "4063",
       "market": "JP",
-      "name": "ソシオネクスト",
+      "name": "信越化学工業",
       "segment": "radar",
       "tier": 1,
       "tags": [],
-      "memo": "ファブレス半導体、SoC、AI・車載・データセンター関連"
+      "memo": "半導体材料、塩ビ、シリコンウェハ"
+    },
+    {
+      "symbol": "3436",
+      "market": "JP",
+      "name": "SUMCO",
+      "segment": "radar",
+      "tier": 1,
+      "tags": [],
+      "memo": "シリコンウェハ、半導体市況"
     },
     {
       "symbol": "NVDA",
