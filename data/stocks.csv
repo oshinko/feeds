@@ -32,13 +32,14 @@ symbol,market,name,segment,tier,tags,memo
 5016,JP,JX金属,core,4,,非鉄、半導体材料、銅
 1812,JP,鹿島建設,core,5,,建設、データセンター、インフラ
 7130,JP,ヤマエグループホールディングス,core,5,,食品卸、流通、九州地盤、M&A
-1605,JP,INPEX,radar,1,,原油、天然ガス、資源
-4062,JP,イビデン,radar,1,,半導体パッケージ基板、ICパッケージ、AIサーバー向け基板
-6146,JP,ディスコ,radar,1,,半導体後工程、切断・研削・研磨装置、先端パッケージング
-6526,JP,ソシオネクスト,radar,1,,ファブレス半導体、SoC、AI・車載・データセンター関連
-6857,JP,アドバンテスト,radar,1,,半導体テスター、AI半導体、HBM、先端ロジック
-6920,JP,レーザーテック,radar,1,,半導体検査装置、EUVマスク検査、先端工程
-7911,JP,TOPPANホールディングス,radar,1,,印刷・情報コミュニケーション、生活・産業、エレクトロニクス、半導体関連部材
+285A,JP,キオクシアホールディングス,radar,1,,NAND、enterprise SSD、AI ストレージ
+3436,JP,SUMCO,radar,1,,シリコンウェハ、半導体市況
+4004,JP,レゾナックHD,radar,1,,半導体材料、後工程、化学
+4063,JP,信越化学工業,radar,1,,半導体材料、塩ビ、シリコンウェハ
+5801,JP,古河電気工業,radar,1,,電線、光ファイバー、データセンター、電力インフラ
+5803,JP,フジクラ,radar,1,,データセンター、光ファイバー、電線
+6981,JP,村田製作所,radar,1,,電子部品、MLCC、スマートフォン、車載
+8035,JP,東京エレクトロン,radar,1,,半導体製造装置、前工程、WFE、市況感応度
 AMZN,US,Amazon,radar,1,,AWS、hyperscaler CAPEX、クラウド需要
 GOOGL,US,Alphabet,radar,1,,Google Cloud、TPU、AI インフラ、データセンター投資
 META,US,Meta Platforms,radar,1,,AI インフラ投資、GPU/サーバー投資、広告需要
