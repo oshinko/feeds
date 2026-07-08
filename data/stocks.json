@@ -203,33 +203,6 @@
       "memo": "銀行、地方銀行、福井県地盤、金利、地域金融"
     },
     {
-      "symbol": "8392",
-      "market": "JP",
-      "name": "大分銀行",
-      "segment": "core",
-      "tier": 3,
-      "tags": [],
-      "memo": "銀行、地方銀行、大分県地盤、金利、地域金融"
-    },
-    {
-      "symbol": "8344",
-      "market": "JP",
-      "name": "山形銀行",
-      "segment": "core",
-      "tier": 3,
-      "tags": [],
-      "memo": "銀行、地方銀行、山形県地盤、金利、地域金融"
-    },
-    {
-      "symbol": "8368",
-      "market": "JP",
-      "name": "百五銀行",
-      "segment": "core",
-      "tier": 3,
-      "tags": [],
-      "memo": "銀行、地方銀行、三重県地盤、金利、地域金融"
-    },
-    {
       "symbol": "7130",
       "market": "JP",
       "name": "ヤマエグループホールディングス",
