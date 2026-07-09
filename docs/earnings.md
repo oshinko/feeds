@@ -12,21 +12,22 @@ https://raw.githubusercontent.com/oshinko/feeds/main/calendars/earnings.ics
 
 監視対象銘柄の正本は [data/stocks.json](../data/stocks.json) です。`items` 配列に銘柄を定義します。スプレッドシート等で扱うための CSV として [data/stocks.csv](../data/stocks.csv) も併置します。
 
-| segment | 意味 |
-| --- | --- |
-| `core` | 独自インデックスの算出対象。継続評価する中核銘柄 |
-| `radar` | 参考・見守り対象。周辺テーマや比較対象として見る銘柄 |
-
 | field | 意味 |
 | --- | --- |
 | `tier` | 銘柄の階層を表す数値。値が小さいほど上位の階層として扱います |
-| `tags` | 銘柄に付与する補助的な分類です。JSON では配列、CSV ではカンマ区切りの文字列として扱います |
+| `tags` | 銘柄に付与する分類です。JSON では配列、CSV ではカンマ区切りの文字列として扱います |
+| `note` | 銘柄を見る観点や補足説明です |
+
+| tag | 意味 |
+| --- | --- |
+| `core` | 独自インデックスの算出対象。継続評価する中核銘柄 |
+| `radar` | 参考・見守り対象。周辺テーマや比較対象として見る銘柄 |
 
 ## 関連テーマ
 
 ### AI / データセンター / 米国ビッグテック
 
-キオクシアの決算を見るときは、NAND、enterprise SSD、AI サーバー、hyperscaler CAPEX、クラウド投資の文脈で、米国ビッグテックの設備投資やデータセンター関連コメントも参考にします。関連企業は `data/stocks.json` で `segment: "radar"` として管理します。
+キオクシアの決算を見るときは、NAND、enterprise SSD、AI サーバー、hyperscaler CAPEX、クラウド投資の文脈で、米国ビッグテックの設備投資やデータセンター関連コメントも参考にします。関連企業は `data/stocks.json` で `radar` タグを付けて管理します。
 
 ### マクロイベント / 金融政策
 
@@ -60,7 +61,7 @@ Select-String -Path .\calendars\earnings.ics -Pattern "earnings-4063-","4063" -E
 .\scripts\export-stocks-csv.ps1
 ```
 
-CSV は `market`, `segment`, `tier`, `symbol` の昇順で出力します。
+CSV は `market`, `tier`, `symbol` の昇順で出力します。
 
 ## 更新ルール
 

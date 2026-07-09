@@ -4,437 +4,383 @@
       "symbol": "1348",
       "market": "JP",
       "name": "MAXIS トピックス",
-      "segment": "core",
       "tier": 1,
-      "tags": [],
-      "memo": "TOPIX連動ETF"
+      "tags": [
+        "core"
+      ],
+      "note": "TOPIX連動ETF"
     },
     {
       "symbol": "2559",
       "market": "JP",
       "name": "MAXIS オルカン",
-      "segment": "core",
       "tier": 1,
-      "tags": [],
-      "memo": "オルカン、全世界株式ETF"
+      "tags": [
+        "core"
+      ],
+      "note": "オルカン、全世界株式ETF"
     },
     {
       "symbol": "3099",
       "market": "JP",
       "name": "三越伊勢丹ホールディングス",
-      "segment": "core",
       "tier": 1,
-      "tags": [],
-      "memo": "小売業、百貨店・商業施設、高級百貨店、都市型商業施設"
+      "tags": [
+        "core",
+        "radar"
+      ],
+      "note": "小売業、百貨店・商業施設、高級百貨店、都市型商業施設"
     },
     {
       "symbol": "6752",
       "market": "JP",
       "name": "パナソニック ホールディングス",
-      "segment": "core",
       "tier": 1,
-      "tags": [],
-      "memo": "電気機器、総合電機・電池・車載・家電、車載電池、家電、住宅設備、電子部品"
+      "tags": [
+        "core",
+        "radar"
+      ],
+      "note": "電気機器、総合電機・電池・車載・家電、車載電池、家電、住宅設備、電子部品"
     },
     {
       "symbol": "8306",
       "market": "JP",
       "name": "三菱UFJフィナンシャル・グループ",
-      "segment": "core",
       "tier": 1,
       "tags": [
-        "ディフェンシブ"
+        "core",
+        "radar"
       ],
-      "memo": "銀行、メガバンク、金利、金融環境"
+      "note": "銀行、メガバンク、金利、金融環境"
     },
     {
       "symbol": "2802",
       "market": "JP",
       "name": "味の素",
-      "segment": "core",
       "tier": 1,
-      "tags": [],
-      "memo": "食料品、調味料・食品・アミノ酸、ヘルスケア、半導体材料"
+      "tags": [
+        "core",
+        "radar"
+      ],
+      "note": "食料品、調味料・食品・アミノ酸、ヘルスケア、半導体材料"
     },
     {
       "symbol": "213A",
       "market": "JP",
       "name": "上場インデックスファンド日経半導体株",
-      "segment": "core",
       "tier": 2,
-      "tags": [],
-      "memo": "半導体、半導体株ETF、日本の半導体関連株指数連動"
+      "tags": [
+        "core"
+      ],
+      "note": "半導体、半導体株ETF、日本の半導体関連株指数連動"
     },
     {
       "symbol": "285A",
       "market": "JP",
       "name": "キオクシアホールディングス",
-      "segment": "core",
       "tier": 2,
-      "tags": [],
-      "memo": "半導体、デバイス、メモリ、NAND、enterprise SSD、AI ストレージ"
+      "tags": [
+        "core",
+        "radar"
+      ],
+      "note": "半導体、デバイス、メモリ、NAND、enterprise SSD、AI ストレージ"
     },
     {
       "symbol": "4004",
       "market": "JP",
       "name": "レゾナックHD",
-      "segment": "core",
       "tier": 2,
-      "tags": [],
-      "memo": "半導体、材料・ウェーハ・フォトマスク・基板、前・後工程材料"
+      "tags": [
+        "core",
+        "radar"
+      ],
+      "note": "半導体、材料・ウェーハ・フォトマスク・基板、前・後工程材料"
     },
     {
       "symbol": "8035",
       "market": "JP",
       "name": "東京エレクトロン",
-      "segment": "core",
       "tier": 2,
-      "tags": [],
-      "memo": "半導体、製造装置、前工程装置、WFE、市況感応度"
+      "tags": [
+        "core",
+        "radar"
+      ],
+      "note": "半導体、製造装置、前工程装置、WFE、市況感応度"
     },
     {
       "symbol": "7762",
       "market": "JP",
       "name": "シチズン時計",
-      "segment": "core",
       "tier": 2,
-      "tags": [],
-      "memo": "精密機器、時計、工作機械、電子部品、インバウンド、為替"
+      "tags": [
+        "core"
+      ],
+      "note": "精密機器、時計、工作機械、電子部品、インバウンド、為替"
     },
     {
       "symbol": "6981",
       "market": "JP",
       "name": "村田製作所",
-      "segment": "core",
       "tier": 2,
-      "tags": [],
-      "memo": "電気機器、MLCC・高周波部品・通信/車載向け電子部品"
+      "tags": [
+        "core",
+        "radar"
+      ],
+      "note": "電気機器、MLCC・高周波部品・通信/車載向け電子部品"
     },
     {
       "symbol": "7735",
       "market": "JP",
       "name": "SCREENホールディングス",
-      "segment": "core",
       "tier": 2,
-      "tags": [],
-      "memo": "半導体、製造装置、前工程装置、洗浄装置"
+      "tags": [
+        "core"
+      ],
+      "note": "半導体、製造装置、前工程装置、洗浄装置"
     },
     {
       "symbol": "2914",
       "market": "JP",
       "name": "JT",
-      "segment": "core",
       "tier": 2,
       "tags": [
-        "ディフェンシブ"
+        "core"
       ],
-      "memo": "食料品、たばこ、ディフェンシブ、高配当、為替"
+      "note": "食料品、たばこ、ディフェンシブ、高配当、為替"
     },
     {
       "symbol": "6723",
       "market": "JP",
       "name": "ルネサスエレクトロニクス",
-      "segment": "core",
       "tier": 3,
-      "tags": [],
-      "memo": "半導体、デバイス、マイコン・車載SoC・アナログ・パワー半導体"
+      "tags": [
+        "core"
+      ],
+      "note": "半導体、デバイス、マイコン・車載SoC・アナログ・パワー半導体"
     },
     {
       "symbol": "6952",
       "market": "JP",
       "name": "カシオ計算機",
-      "segment": "core",
       "tier": 3,
-      "tags": [],
-      "memo": "精密機器、時計、教育・楽器、電子機器、為替"
+      "tags": [
+        "core"
+      ],
+      "note": "精密機器、時計、教育・楽器、電子機器、為替"
     },
     {
       "symbol": "6525",
       "market": "JP",
       "name": "KOKUSAI ELECTRIC",
-      "segment": "core",
       "tier": 3,
-      "tags": [],
-      "memo": "半導体、製造装置、前工程装置、成膜装置"
+      "tags": [
+        "core"
+      ],
+      "note": "半導体、製造装置、前工程装置、成膜装置"
     },
     {
       "symbol": "6674",
       "market": "JP",
       "name": "ジーエス・ユアサ コーポレーション",
-      "segment": "core",
       "tier": 3,
-      "tags": [],
-      "memo": "電気機器、蓄電池・車載電池・産業用電池、電力インフラ"
+      "tags": [
+        "core"
+      ],
+      "note": "電気機器、蓄電池・車載電池・産業用電池、電力インフラ"
     },
     {
       "symbol": "6890",
       "market": "JP",
       "name": "フェローテック",
-      "segment": "core",
       "tier": 3,
-      "tags": [],
-      "memo": "半導体、材料・ウェーハ・フォトマスク・基板、装置部材・材料"
+      "tags": [
+        "core"
+      ],
+      "note": "半導体、材料・ウェーハ・フォトマスク・基板、装置部材・材料"
     },
     {
       "symbol": "6963",
       "market": "JP",
       "name": "ローム",
-      "segment": "core",
       "tier": 3,
-      "tags": [],
-      "memo": "半導体、デバイス、アナログ・パワー半導体・SiC・車載"
+      "tags": [
+        "core"
+      ],
+      "note": "半導体、デバイス、アナログ・パワー半導体・SiC・車載"
     },
     {
       "symbol": "8366",
       "market": "JP",
       "name": "滋賀銀行",
-      "segment": "core",
       "tier": 3,
-      "tags": [],
-      "memo": "銀行、地方銀行、滋賀県地盤、金利、地域金融"
+      "tags": [
+        "core"
+      ],
+      "note": "銀行、地方銀行、滋賀県地盤、金利、地域金融"
     },
     {
       "symbol": "8362",
       "market": "JP",
       "name": "福井銀行",
-      "segment": "core",
       "tier": 3,
-      "tags": [],
-      "memo": "銀行、地方銀行、福井県地盤、金利、地域金融"
+      "tags": [
+        "core"
+      ],
+      "note": "銀行、地方銀行、福井県地盤、金利、地域金融"
     },
     {
       "symbol": "7130",
       "market": "JP",
       "name": "ヤマエグループホールディングス",
-      "segment": "core",
       "tier": 3,
-      "tags": [],
-      "memo": "食品卸、九州地盤・食品卸、流通、M&A"
+      "tags": [
+        "core"
+      ],
+      "note": "食品卸、九州地盤・食品卸、流通、M&A"
     },
     {
       "symbol": "8050",
       "market": "JP",
       "name": "セイコーグループ",
-      "segment": "core",
       "tier": 4,
-      "tags": [],
-      "memo": "精密機器、時計、電子デバイス、システムソリューション、半導体部品"
+      "tags": [
+        "core"
+      ],
+      "note": "精密機器、時計、電子デバイス、システムソリューション、半導体部品"
     },
     {
       "symbol": "5801",
       "market": "JP",
       "name": "古河電気工業",
-      "segment": "core",
       "tier": 4,
-      "tags": [],
-      "memo": "非鉄金属、電線、光ファイバー、データセンター、電力インフラ"
+      "tags": [
+        "core",
+        "radar"
+      ],
+      "note": "非鉄金属、電線、光ファイバー、データセンター、電力インフラ"
     },
     {
       "symbol": "4186",
       "market": "JP",
       "name": "東京応化工業",
-      "segment": "core",
       "tier": 4,
-      "tags": [],
-      "memo": "半導体、材料・ウェーハ・フォトマスク・基板、フォトレジスト・化学薬品"
+      "tags": [
+        "core"
+      ],
+      "note": "半導体、材料・ウェーハ・フォトマスク・基板、フォトレジスト・化学薬品"
     },
     {
       "symbol": "5803",
       "market": "JP",
       "name": "フジクラ",
-      "segment": "core",
       "tier": 4,
-      "tags": [],
-      "memo": "非鉄金属、電線、光ファイバー、データセンター"
+      "tags": [
+        "core",
+        "radar"
+      ],
+      "note": "非鉄金属、電線、光ファイバー、データセンター"
     },
     {
       "symbol": "4063",
       "market": "JP",
       "name": "信越化学工業",
-      "segment": "core",
       "tier": 4,
-      "tags": [],
-      "memo": "半導体、材料・ウェーハ・フォトマスク・基板、シリコンウェハ"
+      "tags": [
+        "core",
+        "radar"
+      ],
+      "note": "半導体、材料・ウェーハ・フォトマスク・基板、シリコンウェハ"
     },
     {
       "symbol": "3436",
       "market": "JP",
       "name": "SUMCO",
-      "segment": "core",
       "tier": 4,
-      "tags": [],
-      "memo": "半導体、材料・ウェーハ・フォトマスク・基板、シリコンウエハ"
+      "tags": [
+        "core",
+        "radar"
+      ],
+      "note": "半導体、材料・ウェーハ・フォトマスク・基板、シリコンウエハ"
     },
     {
       "symbol": "5016",
       "market": "JP",
       "name": "JX金属",
-      "segment": "core",
       "tier": 4,
-      "tags": [],
-      "memo": "非鉄金属、銅・半導体材料・機能材料"
+      "tags": [
+        "core"
+      ],
+      "note": "非鉄金属、銅・半導体材料・機能材料"
     },
     {
       "symbol": "6315",
       "market": "JP",
       "name": "TOWA",
-      "segment": "core",
       "tier": 4,
-      "tags": [],
-      "memo": "半導体、製造装置、後工程装置"
+      "tags": [
+        "core"
+      ],
+      "note": "半導体、製造装置、後工程装置"
     },
     {
       "symbol": "1812",
       "market": "JP",
       "name": "鹿島建設",
-      "segment": "core",
       "tier": 5,
-      "tags": [],
-      "memo": "建設業、総合建設、データセンター、インフラ"
+      "tags": [
+        "core"
+      ],
+      "note": "建設業、総合建設、データセンター、インフラ"
     },
     {
-      "symbol": "285A",
-      "market": "JP",
-      "name": "キオクシアホールディングス",
-      "segment": "radar",
-      "tier": 1,
-      "tags": [],
-      "memo": "NAND、enterprise SSD、AI ストレージ"
-    },
-    {
-      "symbol": "4004",
-      "market": "JP",
-      "name": "レゾナックHD",
-      "segment": "radar",
-      "tier": 1,
-      "tags": [],
-      "memo": "半導体材料、後工程、化学"
-    },
-    {
-      "symbol": "8035",
-      "market": "JP",
-      "name": "東京エレクトロン",
-      "segment": "radar",
-      "tier": 1,
-      "tags": [],
-      "memo": "半導体製造装置、前工程、WFE、市況感応度"
-    },
-    {
-      "symbol": "6981",
-      "market": "JP",
-      "name": "村田製作所",
-      "segment": "radar",
-      "tier": 1,
-      "tags": [],
-      "memo": "電子部品、MLCC、スマートフォン、車載"
-    },
-    {
-      "symbol": "5801",
-      "market": "JP",
-      "name": "古河電気工業",
-      "segment": "radar",
-      "tier": 1,
-      "tags": [],
-      "memo": "電線、光ファイバー、データセンター、電力インフラ"
-    },
-    {
-      "symbol": "5803",
-      "market": "JP",
-      "name": "フジクラ",
-      "segment": "radar",
-      "tier": 1,
-      "tags": [],
-      "memo": "データセンター、光ファイバー、電線"
-    },
-    {
-      "symbol": "4063",
-      "market": "JP",
-      "name": "信越化学工業",
-      "segment": "radar",
-      "tier": 1,
-      "tags": [],
-      "memo": "半導体材料、塩ビ、シリコンウェハ"
-    },
-    {
-      "symbol": "3436",
-      "market": "JP",
-      "name": "SUMCO",
-      "segment": "radar",
-      "tier": 1,
-      "tags": [],
-      "memo": "シリコンウェハ、半導体市況"
-    },
-    {
-      "symbol": "NVDA",
+      "symbol": "AAPL",
       "market": "US",
-      "name": "NVIDIA",
-      "segment": "radar",
+      "name": "Apple",
       "tier": 1,
-      "tags": [],
-      "memo": "AI GPU、データセンター向け半導体、AI サーバー需要の先行指標"
-    },
-    {
-      "symbol": "MSFT",
-      "market": "US",
-      "name": "Microsoft",
-      "segment": "radar",
-      "tier": 1,
-      "tags": [],
-      "memo": "Azure、OpenAI 関連、AI データセンター投資、クラウド CAPEX"
+      "tags": [
+        "radar"
+      ],
+      "note": "iPhone、サービス、Apple Silicon、デバイス需要、米国大型テック"
     },
     {
       "symbol": "GOOGL",
       "market": "US",
       "name": "Alphabet",
-      "segment": "radar",
-      "tier": 1,
-      "tags": [],
-      "memo": "Google Cloud、TPU、AI インフラ、データセンター投資"
+      "tier": 2,
+      "tags": [
+        "radar"
+      ],
+      "note": "Google Cloud、検索広告、YouTube、TPU、AI インフラ、データセンター投資"
     },
     {
       "symbol": "AMZN",
       "market": "US",
       "name": "Amazon",
-      "segment": "radar",
-      "tier": 1,
-      "tags": [],
-      "memo": "AWS、hyperscaler CAPEX、クラウド需要"
+      "tier": 2,
+      "tags": [
+        "radar"
+      ],
+      "note": "AWS、EC、広告、クラウド需要、hyperscaler CAPEX"
     },
     {
-      "symbol": "META",
+      "symbol": "NVDA",
       "market": "US",
-      "name": "Meta Platforms",
-      "segment": "radar",
-      "tier": 1,
-      "tags": [],
-      "memo": "AI インフラ投資、GPU/サーバー投資、広告需要"
+      "name": "NVIDIA",
+      "tier": 2,
+      "tags": [
+        "radar"
+      ],
+      "note": "AI GPU、データセンター向け半導体、AI サーバー需要の先行指標"
     },
     {
-      "symbol": "MU",
+      "symbol": "MSFT",
       "market": "US",
-      "name": "Micron Technology",
-      "segment": "radar",
-      "tier": 1,
-      "tags": [],
-      "memo": "DRAM/NAND/SSD 市況、メモリ価格、データセンター向けメモリ需要"
-    },
-    {
-      "symbol": "SNDK",
-      "market": "US",
-      "name": "Sandisk",
-      "segment": "radar",
-      "tier": 1,
-      "tags": [],
-      "memo": "NAND/SSD 競合、データセンター SSD 需要、高付加価値化"
-    },
-    {
-      "symbol": "ORCL",
-      "market": "US",
-      "name": "Oracle",
-      "segment": "radar",
-      "tier": 1,
-      "tags": [],
-      "memo": "OCI、AI クラウド需要、hyperscaler 以外の AI インフラ投資"
+      "name": "Microsoft",
+      "tier": 2,
+      "tags": [
+        "radar"
+      ],
+      "note": "Azure、OpenAI 関連、AI データセンター投資、クラウド CAPEX"
     }
   ]
 }

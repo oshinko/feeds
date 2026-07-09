@@ -5,7 +5,7 @@ $jsonPath = Join-Path $repoRoot "data\stocks.json"
 $csvPath = Join-Path $repoRoot "data\stocks.csv"
 
 $data = Get-Content $jsonPath -Encoding UTF8 -Raw | ConvertFrom-Json
-$columns = @("symbol", "market", "name", "segment", "tier", "tags", "memo")
+$columns = @("symbol", "market", "name", "tier", "tags", "note")
 
 function Convert-ToCsvField {
     param([AllowNull()][object] $Value)
@@ -46,7 +46,7 @@ function Get-StockFieldValue {
 $lines = New-Object System.Collections.Generic.List[string]
 $lines.Add(($columns -join ","))
 
-foreach ($stock in ($data.items | Sort-Object market, segment, tier, symbol)) {
+foreach ($stock in ($data.items | Sort-Object market, tier, symbol)) {
     $fields = foreach ($column in $columns) {
         Convert-ToCsvField (Get-StockFieldValue $stock $column)
     }
