@@ -20,8 +20,14 @@ https://raw.githubusercontent.com/oshinko/feeds/main/calendars/earnings.ics
 
 | tag | 意味 |
 | --- | --- |
-| `core` | 独自インデックスの算出対象。継続評価する中核銘柄 |
 | `radar` | 参考・見守り対象。周辺テーマや比較対象として見る銘柄 |
+| `earnings` | 決算予定を調査し、カレンダーへ新規登録する対象銘柄 |
+
+### 決算登録対象
+
+決算予定の調査・新規登録対象は、`data/stocks.json` で `earnings` タグを持つ銘柄です。`radar` は参考・見守り対象を示す分類であり、決算登録対象を直接決めるものではありません。
+
+新しく決算登録対象にする場合は、先に `data/stocks.json` へ銘柄を追加し、`earnings` タグを付けます。`earnings` タグを外した場合は新規予定の追加を停止しますが、登録済みのイベントは自動削除しません。既存イベントを削除するのは、重複、中止、誤登録などを個別に確認できた場合に限ります。
 
 ## 関連テーマ
 
@@ -33,7 +39,38 @@ https://raw.githubusercontent.com/oshinko/feeds/main/calendars/earnings.ics
 
 `calendars/earnings.ics` はファイル名上は決算フィードですが、購読先を増やさずに運用するため、監視銘柄に影響しやすいマクロイベントや金融政策イベントも同じファイルで管理します。
 
-米国の CPI、PCE、雇用統計、GDP、耐久財受注、FOMC、日銀金融政策決定会合など、金利、ドル円、NASDAQ、半導体・AI関連株に影響しやすいイベントを登録対象とします。
+マクロイベントと金融政策イベントは、銘柄の `earnings` タグとは独立して登録します。
+
+#### 常時追跡
+
+次のイベントは、公式機関が公表する予定を確認し、継続的に登録します。
+
+| イベント | 主な確認元 |
+| --- | --- |
+| 米国 CPI | 米労働省 BLS |
+| 米国雇用統計 | 米労働省 BLS |
+| 米国 PCE・GDP | 米商務省 BEA |
+| FOMC | FRB |
+| 日銀金融政策決定会合 | 日本銀行 |
+| 日銀「主な意見」 | 日本銀行 |
+
+#### スポット登録
+
+次のイベントは常時登録せず、金利、ドル円、NASDAQ、半導体・AI関連株への影響が大きいと判断した場合に登録します。
+
+- 米国 PPI
+- 米国小売売上高
+- 新規失業保険申請件数
+- フィラデルフィア連銀製造業指数
+- 米国輸入・輸出物価
+- 米国住宅着工・建築許可
+- 米国鉱工業生産・設備稼働率
+- ミシガン大学消費者信頼感・期待インフレ
+- 米国耐久財受注
+- FOMC 議事要旨
+- ジャクソンホール経済政策シンポジウム
+
+スポット登録したイベントは、次回以降も機械的に継続登録する対象とはしません。常時追跡へ変更する場合は、この一覧と更新ルールを先に更新します。
 
 米国雇用統計は、米労働省 BLS の `Schedule of Releases for the Employment Situation` で発表日と時刻を確認して登録します。通常は第1金曜日が多いものの、祝日などにより木曜日や翌週にずれる場合があるため、機械的な曜日ルールではなく BLS 公式スケジュールを優先します。
 
@@ -44,6 +81,8 @@ https://raw.githubusercontent.com/oshinko/feeds/main/calendars/earnings.ics
 FOMC は、FRB 公式の `FOMC Meetings` カレンダーで会合日を確認して登録します。原則として米国現地の会合最終日を UID に使い、日本時間では結果発表・記者会見を確認する未明の時刻で登録します。SEP（Summary of Economic Projections、ドットチャート）公表対象会合は `SUMMARY` に `SEP` を含めます。
 
 日銀金融政策決定会合は、日銀公式の Monetary Policy Meetings の予定表で会合日と結果公表日を確認して登録します。原則として結果公表日を終日イベントとして登録します。展望レポート公表対象会合は `DESCRIPTION` に明記します。
+
+日銀「主な意見」は、日銀公式の Monetary Policy Meetings の予定表で公表日を確認して登録します。原則として公表日の 8:50（日本時間）で登録し、`DESCRIPTION` に対象となる会合日を明記します。
 
 ## 更新手順
 
@@ -87,6 +126,8 @@ FOMC を登録する場合は、`SUMMARY` を `FOMC 結果発表` とし、SEP �
 
 日銀金融政策決定会合を登録する場合は、`SUMMARY` を `日銀 金融政策決定会合 結果公表` とし、`DESCRIPTION` に会合日、政策変更の有無、総裁記者会見、展望レポート公表対象かどうかを記載します。
 
+日銀「主な意見」を登録する場合は、`SUMMARY` を `日銀 金融政策決定会合 主な意見 公表` とし、`DESCRIPTION` に対象となる会合日と公表予定時刻を記載します。
+
 イベントは可能な限り `DTSTART` の時系列順に並べます。同じ日のイベントは、時刻付きイベント、終日イベント、関連イベントの見やすさを考慮して配置します。
 
 既存イベントの `目安` 表記は、公式情報で確認できた場合に外します。公式確認できない場合は `目安` のまま残すか、不要になった時点で削除候補とします。
@@ -119,7 +160,9 @@ macro-jp-{slug}-{yyyymmdd}@feeds.osnk
 
 # 金融政策
 fomc-{yyyymmdd}@feeds.osnk
+fomc-minutes-{yyyymmdd}@feeds.osnk
 boj-mpm-{yyyymmdd}@feeds.osnk
+boj-mpm-opinions-{yyyymmdd}@feeds.osnk
 ```
 
 例:
@@ -138,6 +181,7 @@ macro-us-employment-situation-20260702@feeds.osnk
 macro-us-pce-gdp-20260730@feeds.osnk
 fomc-20260729@feeds.osnk
 boj-mpm-20260731@feeds.osnk
+boj-mpm-opinions-20260810@feeds.osnk
 ```
 
 `symbol` は銘柄マスターの `symbol` を使います。日本株は東証コード、米国株はティッカーを使います。

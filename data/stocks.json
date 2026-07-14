@@ -5,9 +5,7 @@
       "market": "JP",
       "name": "MAXIS トピックス",
       "tier": 1,
-      "tags": [
-        "core"
-      ],
+      "tags": [],
       "note": "TOPIX連動ETF"
     },
     {
@@ -15,9 +13,7 @@
       "market": "JP",
       "name": "MAXIS オルカン",
       "tier": 1,
-      "tags": [
-        "core"
-      ],
+      "tags": [],
       "note": "オルカン、全世界株式ETF"
     },
     {
@@ -26,8 +22,8 @@
       "name": "三越伊勢丹ホールディングス",
       "tier": 1,
       "tags": [
-        "core",
-        "radar"
+        "radar",
+        "earnings"
       ],
       "note": "小売業、百貨店・商業施設、高級百貨店、都市型商業施設"
     },
@@ -37,8 +33,8 @@
       "name": "パナソニック ホールディングス",
       "tier": 1,
       "tags": [
-        "core",
-        "radar"
+        "radar",
+        "earnings"
       ],
       "note": "電気機器、総合電機・電池・車載・家電、車載電池、家電、住宅設備、電子部品"
     },
@@ -48,8 +44,8 @@
       "name": "三菱UFJフィナンシャル・グループ",
       "tier": 1,
       "tags": [
-        "core",
-        "radar"
+        "radar",
+        "earnings"
       ],
       "note": "銀行、メガバンク、金利、金融環境"
     },
@@ -59,8 +55,8 @@
       "name": "味の素",
       "tier": 1,
       "tags": [
-        "core",
-        "radar"
+        "radar",
+        "earnings"
       ],
       "note": "食料品、調味料・食品・アミノ酸、ヘルスケア、半導体材料"
     },
@@ -69,9 +65,7 @@
       "market": "JP",
       "name": "上場インデックスファンド日経半導体株",
       "tier": 2,
-      "tags": [
-        "core"
-      ],
+      "tags": [],
       "note": "半導体、半導体株ETF、日本の半導体関連株指数連動"
     },
     {
@@ -80,8 +74,8 @@
       "name": "キオクシアホールディングス",
       "tier": 2,
       "tags": [
-        "core",
-        "radar"
+        "radar",
+        "earnings"
       ],
       "note": "半導体、デバイス、メモリ、NAND、enterprise SSD、AI ストレージ"
     },
@@ -91,8 +85,8 @@
       "name": "レゾナックHD",
       "tier": 2,
       "tags": [
-        "core",
-        "radar"
+        "radar",
+        "earnings"
       ],
       "note": "半導体、材料・ウェーハ・フォトマスク・基板、前・後工程材料"
     },
@@ -102,8 +96,8 @@
       "name": "東京エレクトロン",
       "tier": 2,
       "tags": [
-        "core",
-        "radar"
+        "radar",
+        "earnings"
       ],
       "note": "半導体、製造装置、前工程装置、WFE、市況感応度"
     },
@@ -112,9 +106,7 @@
       "market": "JP",
       "name": "シチズン時計",
       "tier": 2,
-      "tags": [
-        "core"
-      ],
+      "tags": [],
       "note": "精密機器、時計、工作機械、電子部品、インバウンド、為替"
     },
     {
@@ -122,9 +114,7 @@
       "market": "JP",
       "name": "カシオ計算機",
       "tier": 2,
-      "tags": [
-        "core"
-      ],
+      "tags": [],
       "note": "精密機器、時計、教育・楽器、電子機器、為替"
     },
     {
@@ -132,9 +122,7 @@
       "market": "JP",
       "name": "セイコーグループ",
       "tier": 2,
-      "tags": [
-        "core"
-      ],
+      "tags": [],
       "note": "精密機器、時計、電子デバイス、システムソリューション、半導体部品"
     },
     {
@@ -143,8 +131,8 @@
       "name": "村田製作所",
       "tier": 2,
       "tags": [
-        "core",
-        "radar"
+        "radar",
+        "earnings"
       ],
       "note": "電気機器、MLCC・高周波部品・通信/車載向け電子部品"
     },
@@ -153,9 +141,7 @@
       "market": "JP",
       "name": "SCREENホールディングス",
       "tier": 2,
-      "tags": [
-        "core"
-      ],
+      "tags": [],
       "note": "半導体、製造装置、前工程装置、洗浄装置"
     },
     {
@@ -163,9 +149,7 @@
       "market": "JP",
       "name": "ジーエス・ユアサ コーポレーション",
       "tier": 2,
-      "tags": [
-        "core"
-      ],
+      "tags": [],
       "note": "電気機器、蓄電池・車載電池・産業用電池、電力インフラ"
     },
     {
@@ -173,9 +157,7 @@
       "market": "JP",
       "name": "ルネサスエレクトロニクス",
       "tier": 3,
-      "tags": [
-        "core"
-      ],
+      "tags": [],
       "note": "半導体、デバイス、マイコン・車載SoC・アナログ・パワー半導体"
     },
     {
@@ -184,19 +166,28 @@
       "name": "ローム",
       "tier": 3,
       "tags": [
-        "core",
-        "radar"
+        "radar",
+        "earnings"
       ],
       "note": "半導体、デバイス、アナログ・パワー半導体・SiC・車載"
+    },
+    {
+      "symbol": "6146",
+      "market": "JP",
+      "name": "ディスコ",
+      "tier": 3,
+      "tags": [
+        "radar",
+        "earnings"
+      ],
+      "note": "半導体、製造装置、後工程装置、切断・研削・研磨装置、先端パッケージング"
     },
     {
       "symbol": "2914",
       "market": "JP",
       "name": "JT",
       "tier": 3,
-      "tags": [
-        "core"
-      ],
+      "tags": [],
       "note": "食料品、たばこ、ディフェンシブ、高配当、為替"
     },
     {
@@ -204,9 +195,7 @@
       "market": "JP",
       "name": "ヤマエグループホールディングス",
       "tier": 3,
-      "tags": [
-        "core"
-      ],
+      "tags": [],
       "note": "食品卸、九州地盤・食品卸、流通、M&A"
     },
     {
@@ -215,8 +204,8 @@
       "name": "古河電気工業",
       "tier": 4,
       "tags": [
-        "core",
-        "radar"
+        "radar",
+        "earnings"
       ],
       "note": "非鉄金属、電線、光ファイバー、データセンター、電力インフラ"
     },
@@ -225,9 +214,7 @@
       "market": "JP",
       "name": "東京応化工業",
       "tier": 4,
-      "tags": [
-        "core"
-      ],
+      "tags": [],
       "note": "半導体、材料・ウェーハ・フォトマスク・基板、フォトレジスト・化学薬品"
     },
     {
@@ -236,8 +223,8 @@
       "name": "フジクラ",
       "tier": 4,
       "tags": [
-        "core",
-        "radar"
+        "radar",
+        "earnings"
       ],
       "note": "非鉄金属、電線、光ファイバー、データセンター"
     },
@@ -247,8 +234,8 @@
       "name": "信越化学工業",
       "tier": 4,
       "tags": [
-        "core",
-        "radar"
+        "radar",
+        "earnings"
       ],
       "note": "半導体、材料・ウェーハ・フォトマスク・基板、シリコンウェハ"
     },
@@ -258,8 +245,8 @@
       "name": "SUMCO",
       "tier": 4,
       "tags": [
-        "core",
-        "radar"
+        "radar",
+        "earnings"
       ],
       "note": "半導体、材料・ウェーハ・フォトマスク・基板、シリコンウエハ"
     },
@@ -268,9 +255,7 @@
       "market": "JP",
       "name": "JX金属",
       "tier": 4,
-      "tags": [
-        "core"
-      ],
+      "tags": [],
       "note": "非鉄金属、銅・半導体材料・機能材料"
     },
     {
@@ -278,9 +263,7 @@
       "market": "JP",
       "name": "ヤマハ発動機",
       "tier": 4,
-      "tags": [
-        "core"
-      ],
+      "tags": [],
       "note": "輸送用機器、二輪、マリン、レクリエーショナルビークル、ロボティクス"
     },
     {
@@ -288,9 +271,7 @@
       "market": "JP",
       "name": "鹿島建設",
       "tier": 5,
-      "tags": [
-        "core"
-      ],
+      "tags": [],
       "note": "建設業、総合建設、データセンター、インフラ"
     },
     {
@@ -298,9 +279,7 @@
       "market": "JP",
       "name": "本田技研工業",
       "tier": 5,
-      "tags": [
-        "core"
-      ],
+      "tags": [],
       "note": "輸送用機器、四輪、二輪、北米、自動車"
     },
     {
@@ -308,9 +287,7 @@
       "market": "JP",
       "name": "スズキ",
       "tier": 5,
-      "tags": [
-        "core"
-      ],
+      "tags": [],
       "note": "輸送用機器、四輪、二輪、インド、自動車"
     },
     {
@@ -319,8 +296,8 @@
       "name": "トヨタ自動車",
       "tier": 5,
       "tags": [
-        "core",
-        "radar"
+        "radar",
+        "earnings"
       ],
       "note": "輸送用機器、四輪、世界大手、自動車"
     },
@@ -329,9 +306,7 @@
       "market": "JP",
       "name": "日産自動車",
       "tier": 5,
-      "tags": [
-        "core"
-      ],
+      "tags": [],
       "note": "輸送用機器、四輪、自動車、事業再建"
     },
     {
@@ -340,7 +315,8 @@
       "name": "Apple",
       "tier": 1,
       "tags": [
-        "radar"
+        "radar",
+        "earnings"
       ],
       "note": "iPhone、サービス、Apple Silicon、デバイス需要、米国大型テック"
     },
@@ -350,7 +326,8 @@
       "name": "Alphabet",
       "tier": 2,
       "tags": [
-        "radar"
+        "radar",
+        "earnings"
       ],
       "note": "Google Cloud、検索広告、YouTube、TPU、AI インフラ、データセンター投資"
     },
@@ -360,7 +337,8 @@
       "name": "Amazon",
       "tier": 2,
       "tags": [
-        "radar"
+        "radar",
+        "earnings"
       ],
       "note": "AWS、EC、広告、クラウド需要、hyperscaler CAPEX"
     },
@@ -370,7 +348,8 @@
       "name": "NVIDIA",
       "tier": 2,
       "tags": [
-        "radar"
+        "radar",
+        "earnings"
       ],
       "note": "AI GPU、データセンター向け半導体、AI サーバー需要の先行指標"
     },
@@ -380,7 +359,8 @@
       "name": "Microsoft",
       "tier": 2,
       "tags": [
-        "radar"
+        "radar",
+        "earnings"
       ],
       "note": "Azure、OpenAI 関連、AI データセンター投資、クラウド CAPEX"
     }
