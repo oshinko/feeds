@@ -1,26 +1,10 @@
 {
   "items": [
     {
-      "symbol": "1348",
-      "market": "JP",
-      "name": "MAXIS トピックス",
-      "tier": 1,
-      "tags": [],
-      "note": "TOPIX連動ETF"
-    },
-    {
-      "symbol": "2559",
-      "market": "JP",
-      "name": "MAXIS オルカン",
-      "tier": 1,
-      "tags": [],
-      "note": "オルカン、全世界株式ETF"
-    },
-    {
       "symbol": "3099",
       "market": "JP",
       "name": "三越伊勢丹ホールディングス",
-      "tier": 1,
+      "tier": 2,
       "tags": [
         "radar",
         "earnings"
@@ -31,7 +15,7 @@
       "symbol": "6752",
       "market": "JP",
       "name": "パナソニック ホールディングス",
-      "tier": 1,
+      "tier": 2,
       "tags": [
         "radar",
         "earnings"
@@ -50,10 +34,21 @@
       "note": "銀行、メガバンク、金利、金融環境"
     },
     {
+      "symbol": "8766",
+      "market": "JP",
+      "name": "東京海上ホールディングス",
+      "tier": 2,
+      "tags": [
+        "radar",
+        "earnings"
+      ],
+      "note": "保険業、損害保険、海外保険、金利、自然災害リスク"
+    },
+    {
       "symbol": "2802",
       "market": "JP",
       "name": "味の素",
-      "tier": 1,
+      "tier": 2,
       "tags": [
         "radar",
         "earnings"
@@ -64,7 +59,7 @@
       "symbol": "213A",
       "market": "JP",
       "name": "上場インデックスファンド日経半導体株",
-      "tier": 2,
+      "tier": 3,
       "tags": [],
       "note": "半導体、半導体株ETF、日本の半導体関連株指数連動"
     },
@@ -83,7 +78,7 @@
       "symbol": "4004",
       "market": "JP",
       "name": "レゾナックHD",
-      "tier": 2,
+      "tier": 3,
       "tags": [
         "radar",
         "earnings"
@@ -94,7 +89,7 @@
       "symbol": "8035",
       "market": "JP",
       "name": "東京エレクトロン",
-      "tier": 2,
+      "tier": 3,
       "tags": [
         "radar",
         "earnings"
@@ -105,7 +100,7 @@
       "symbol": "7762",
       "market": "JP",
       "name": "シチズン時計",
-      "tier": 2,
+      "tier": 3,
       "tags": [],
       "note": "精密機器、時計、工作機械、電子部品、インバウンド、為替"
     },
@@ -113,7 +108,7 @@
       "symbol": "6952",
       "market": "JP",
       "name": "カシオ計算機",
-      "tier": 2,
+      "tier": 3,
       "tags": [],
       "note": "精密機器、時計、教育・楽器、電子機器、為替"
     },
@@ -121,7 +116,7 @@
       "symbol": "8050",
       "market": "JP",
       "name": "セイコーグループ",
-      "tier": 2,
+      "tier": 3,
       "tags": [],
       "note": "精密機器、時計、電子デバイス、システムソリューション、半導体部品"
     },
@@ -129,7 +124,7 @@
       "symbol": "6981",
       "market": "JP",
       "name": "村田製作所",
-      "tier": 2,
+      "tier": 3,
       "tags": [
         "radar",
         "earnings"
@@ -156,7 +151,7 @@
       "symbol": "6723",
       "market": "JP",
       "name": "ルネサスエレクトロニクス",
-      "tier": 3,
+      "tier": 4,
       "tags": [],
       "note": "半導体、デバイス、マイコン・車載SoC・アナログ・パワー半導体"
     },
@@ -164,7 +159,7 @@
       "symbol": "6963",
       "market": "JP",
       "name": "ローム",
-      "tier": 3,
+      "tier": 4,
       "tags": [
         "radar",
         "earnings"
@@ -186,7 +181,7 @@
       "symbol": "2914",
       "market": "JP",
       "name": "JT",
-      "tier": 3,
+      "tier": 2,
       "tags": [],
       "note": "食料品、たばこ、ディフェンシブ、高配当、為替"
     },
@@ -202,7 +197,7 @@
       "symbol": "5801",
       "market": "JP",
       "name": "古河電気工業",
-      "tier": 4,
+      "tier": 5,
       "tags": [
         "radar",
         "earnings"
@@ -213,7 +208,7 @@
       "symbol": "4186",
       "market": "JP",
       "name": "東京応化工業",
-      "tier": 4,
+      "tier": 5,
       "tags": [],
       "note": "半導体、材料・ウェーハ・フォトマスク・基板、フォトレジスト・化学薬品"
     },
@@ -221,7 +216,7 @@
       "symbol": "5803",
       "market": "JP",
       "name": "フジクラ",
-      "tier": 4,
+      "tier": 5,
       "tags": [
         "radar",
         "earnings"
@@ -232,7 +227,7 @@
       "symbol": "4063",
       "market": "JP",
       "name": "信越化学工業",
-      "tier": 4,
+      "tier": 5,
       "tags": [
         "radar",
         "earnings"
@@ -243,7 +238,7 @@
       "symbol": "3436",
       "market": "JP",
       "name": "SUMCO",
-      "tier": 4,
+      "tier": 5,
       "tags": [
         "radar",
         "earnings"
@@ -254,7 +249,7 @@
       "symbol": "5016",
       "market": "JP",
       "name": "JX金属",
-      "tier": 4,
+      "tier": 5,
       "tags": [],
       "note": "非鉄金属、銅・半導体材料・機能材料"
     },
@@ -262,7 +257,7 @@
       "symbol": "7272",
       "market": "JP",
       "name": "ヤマハ発動機",
-      "tier": 4,
+      "tier": 2,
       "tags": [],
       "note": "輸送用機器、二輪、マリン、レクリエーショナルビークル、ロボティクス"
     },
@@ -278,7 +273,7 @@
       "symbol": "7267",
       "market": "JP",
       "name": "本田技研工業",
-      "tier": 5,
+      "tier": 2,
       "tags": [],
       "note": "輸送用機器、四輪、二輪、北米、自動車"
     },
@@ -286,7 +281,7 @@
       "symbol": "7269",
       "market": "JP",
       "name": "スズキ",
-      "tier": 5,
+      "tier": 4,
       "tags": [],
       "note": "輸送用機器、四輪、二輪、インド、自動車"
     },
