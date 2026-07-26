@@ -218,7 +218,6 @@
       "name": "フジクラ",
       "tier": 5,
       "tags": [
-        "radar",
         "earnings"
       ],
       "note": "非鉄金属、電線、光ファイバー、データセンター"
@@ -240,7 +239,6 @@
       "name": "SUMCO",
       "tier": 5,
       "tags": [
-        "radar",
         "earnings"
       ],
       "note": "半導体、材料・ウェーハ・フォトマスク・基板、シリコンウエハ"
