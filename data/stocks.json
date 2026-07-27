@@ -23,6 +23,16 @@
       "note": "電気機器、総合電機・電池・車載・家電、車載電池、家電、住宅設備、電子部品"
     },
     {
+      "symbol": "6758",
+      "market": "JP",
+      "name": "ソニーグループ",
+      "tier": 2,
+      "tags": [
+        "earnings"
+      ],
+      "note": "電気機器、ゲーム、音楽、映画、イメージセンサー、エレクトロニクス"
+    },
+    {
       "symbol": "8306",
       "market": "JP",
       "name": "三菱UFJフィナンシャル・グループ",
@@ -32,6 +42,26 @@
         "earnings"
       ],
       "note": "銀行、メガバンク、金利、金融環境"
+    },
+    {
+      "symbol": "8316",
+      "market": "JP",
+      "name": "三井住友フィナンシャルグループ",
+      "tier": 2,
+      "tags": [
+        "earnings"
+      ],
+      "note": "銀行、メガバンク、国内金利、法人金融、海外事業"
+    },
+    {
+      "symbol": "8411",
+      "market": "JP",
+      "name": "みずほフィナンシャルグループ",
+      "tier": 2,
+      "tags": [
+        "earnings"
+      ],
+      "note": "銀行、メガバンク、国内金利、法人金融、資産運用"
     },
     {
       "symbol": "8766",
@@ -333,6 +363,26 @@
       "note": "輸送用機器、四輪、自動車、事業再建"
     },
     {
+      "symbol": "000660",
+      "market": "KR",
+      "name": "SK hynix",
+      "tier": 2,
+      "tags": [
+        "earnings"
+      ],
+      "note": "半導体、DRAM、NAND、HBM、AIサーバー、メモリ価格"
+    },
+    {
+      "symbol": "005930",
+      "market": "KR",
+      "name": "Samsung Electronics",
+      "tier": 2,
+      "tags": [
+        "earnings"
+      ],
+      "note": "半導体、DRAM、NAND、HBM、ファウンドリ、スマートフォン、ディスプレイ"
+    },
+    {
       "symbol": "AAPL",
       "market": "US",
       "name": "Apple",
@@ -386,6 +436,36 @@
         "earnings"
       ],
       "note": "Azure、OpenAI 関連、AI データセンター投資、クラウド CAPEX"
+    },
+    {
+      "symbol": "MU",
+      "market": "US",
+      "name": "Micron Technology",
+      "tier": 2,
+      "tags": [
+        "earnings"
+      ],
+      "note": "半導体、DRAM、NAND、HBM、データセンター、メモリ価格"
+    },
+    {
+      "symbol": "SNDK",
+      "market": "US",
+      "name": "Sandisk",
+      "tier": 2,
+      "tags": [
+        "earnings"
+      ],
+      "note": "半導体、NAND、フラッシュメモリ、SSD、データセンター、BiCS"
+    },
+    {
+      "symbol": "META",
+      "market": "US",
+      "name": "Meta Platforms",
+      "tier": 2,
+      "tags": [
+        "earnings"
+      ],
+      "note": "広告、Family of Apps、Reality Labs、AI、データセンター投資"
     }
   ]
 }

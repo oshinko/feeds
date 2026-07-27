@@ -6,9 +6,12 @@ symbol,market,name,tier,tags,note
 3099,JP,三越伊勢丹ホールディングス,2,"radar,earnings",小売業、百貨店・商業施設、高級百貨店、都市型商業施設
 6674,JP,ジーエス・ユアサ コーポレーション,2,earnings,電気機器、蓄電池・車載電池・産業用電池、電力インフラ
 6752,JP,パナソニック ホールディングス,2,"radar,earnings",電気機器、総合電機・電池・車載・家電、車載電池、家電、住宅設備、電子部品
+6758,JP,ソニーグループ,2,earnings,電気機器、ゲーム、音楽、映画、イメージセンサー、エレクトロニクス
 7267,JP,本田技研工業,2,earnings,輸送用機器、四輪、二輪、北米、自動車
 7272,JP,ヤマハ発動機,2,earnings,輸送用機器、二輪、マリン、レクリエーショナルビークル、ロボティクス
 7735,JP,SCREENホールディングス,2,earnings,半導体、製造装置、前工程装置、洗浄装置
+8316,JP,三井住友フィナンシャルグループ,2,earnings,銀行、メガバンク、国内金利、法人金融、海外事業
+8411,JP,みずほフィナンシャルグループ,2,earnings,銀行、メガバンク、国内金利、法人金融、資産運用
 8766,JP,東京海上ホールディングス,2,"radar,earnings",保険業、損害保険、海外保険、金利、自然災害リスク
 213A,JP,上場インデックスファンド日経半導体株,3,,半導体、半導体株ETF、日本の半導体関連株指数連動
 4004,JP,レゾナックHD,3,"radar,earnings",半導体、材料・ウェーハ・フォトマスク・基板、前・後工程材料
@@ -31,8 +34,13 @@ symbol,market,name,tier,tags,note
 5803,JP,フジクラ,5,earnings,非鉄金属、電線、光ファイバー、データセンター
 7201,JP,日産自動車,5,earnings,輸送用機器、四輪、自動車、事業再建
 7203,JP,トヨタ自動車,5,"radar,earnings",輸送用機器、四輪、世界大手、自動車
+000660,KR,SK hynix,2,earnings,半導体、DRAM、NAND、HBM、AIサーバー、メモリ価格
+005930,KR,Samsung Electronics,2,earnings,半導体、DRAM、NAND、HBM、ファウンドリ、スマートフォン、ディスプレイ
 AAPL,US,Apple,1,"radar,earnings",iPhone、サービス、Apple Silicon、デバイス需要、米国大型テック
 AMZN,US,Amazon,2,"radar,earnings",AWS、EC、広告、クラウド需要、hyperscaler CAPEX
 GOOGL,US,Alphabet,2,"radar,earnings",Google Cloud、検索広告、YouTube、TPU、AI インフラ、データセンター投資
+META,US,Meta Platforms,2,earnings,広告、Family of Apps、Reality Labs、AI、データセンター投資
 MSFT,US,Microsoft,2,"radar,earnings",Azure、OpenAI 関連、AI データセンター投資、クラウド CAPEX
+MU,US,Micron Technology,2,earnings,半導体、DRAM、NAND、HBM、データセンター、メモリ価格
 NVDA,US,NVIDIA,2,"radar,earnings",AI GPU、データセンター向け半導体、AI サーバー需要の先行指標
+SNDK,US,Sandisk,2,earnings,半導体、NAND、フラッシュメモリ、SSD、データセンター、BiCS
