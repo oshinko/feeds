@@ -15,6 +15,7 @@ symbol,market,name,tier,tags,note
 213A,JP,上場インデックスファンド日経半導体株,3,,半導体、半導体株ETF、日本の半導体関連株指数連動
 4004,JP,レゾナックHD,3,"radar,earnings",半導体、材料・ウェーハ・フォトマスク・基板、前・後工程材料
 6146,JP,ディスコ,3,"radar,earnings",半導体、製造装置、後工程装置、切断・研削・研磨装置、先端パッケージング
+6857,JP,アドバンテスト,3,earnings,半導体、テスト装置、SoC・メモリテスタ、AI・HPC、高性能DRAM
 6952,JP,カシオ計算機,3,earnings,精密機器、時計、教育・楽器、電子機器、為替
 6981,JP,村田製作所,3,"radar,earnings",電気機器、MLCC・高周波部品・通信/車載向け電子部品
 7130,JP,ヤマエグループホールディングス,3,earnings,食品卸、九州地盤・食品卸、流通、M&A
@@ -44,3 +45,4 @@ MSFT,US,Microsoft,2,"radar,earnings",Azure、OpenAI 関連、AI データセン�
 MU,US,Micron Technology,2,earnings,半導体、DRAM、NAND、HBM、データセンター、メモリ価格
 NVDA,US,NVIDIA,2,"radar,earnings",AI GPU、データセンター向け半導体、AI サーバー需要の先行指標
 SNDK,US,Sandisk,2,earnings,半導体、NAND、フラッシュメモリ、SSD、データセンター、BiCS
+TER,US,Teradyne,3,earnings,半導体、テスト装置、SoC・メモリテスト、AI・データセンター、産業用ロボット

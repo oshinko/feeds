@@ -168,6 +168,16 @@
       "note": "電気機器、MLCC・高周波部品・通信/車載向け電子部品"
     },
     {
+      "symbol": "6857",
+      "market": "JP",
+      "name": "アドバンテスト",
+      "tier": 3,
+      "tags": [
+        "earnings"
+      ],
+      "note": "半導体、テスト装置、SoC・メモリテスタ、AI・HPC、高性能DRAM"
+    },
+    {
       "symbol": "7735",
       "market": "JP",
       "name": "SCREENホールディングス",
@@ -466,6 +476,16 @@
         "earnings"
       ],
       "note": "広告、Family of Apps、Reality Labs、AI、データセンター投資"
+    },
+    {
+      "symbol": "TER",
+      "market": "US",
+      "name": "Teradyne",
+      "tier": 3,
+      "tags": [
+        "earnings"
+      ],
+      "note": "半導体、テスト装置、SoC・メモリテスト、AI・データセンター、産業用ロボット"
     }
   ]
 }
