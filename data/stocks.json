@@ -15,7 +15,7 @@
       "symbol": "6752",
       "market": "JP",
       "name": "パナソニック ホールディングス",
-      "tier": 2,
+      "tier": 3,
       "tags": [
         "radar",
         "earnings"
@@ -78,7 +78,7 @@
       "symbol": "2802",
       "market": "JP",
       "name": "味の素",
-      "tier": 2,
+      "tier": 3,
       "tags": [
         "radar",
         "earnings"
@@ -315,7 +315,7 @@
       "symbol": "7272",
       "market": "JP",
       "name": "ヤマハ発動機",
-      "tier": 2,
+      "tier": 3,
       "tags": [
         "earnings"
       ],
@@ -335,7 +335,7 @@
       "symbol": "7267",
       "market": "JP",
       "name": "本田技研工業",
-      "tier": 2,
+      "tier": 3,
       "tags": [
         "earnings"
       ],
@@ -345,7 +345,7 @@
       "symbol": "7269",
       "market": "JP",
       "name": "スズキ",
-      "tier": 4,
+      "tier": 2,
       "tags": [
         "earnings"
       ],
@@ -355,7 +355,7 @@
       "symbol": "7203",
       "market": "JP",
       "name": "トヨタ自動車",
-      "tier": 5,
+      "tier": 2,
       "tags": [
         "radar",
         "earnings"
