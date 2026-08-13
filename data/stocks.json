@@ -57,7 +57,7 @@
       "symbol": "8411",
       "market": "JP",
       "name": "みずほフィナンシャルグループ",
-      "tier": 2,
+      "tier": 1,
       "tags": [
         "earnings"
       ],
@@ -67,7 +67,7 @@
       "symbol": "8766",
       "market": "JP",
       "name": "東京海上ホールディングス",
-      "tier": 2,
+      "tier": 3,
       "tags": [
         "radar",
         "earnings"
@@ -86,18 +86,10 @@
       "note": "食料品、調味料・食品・アミノ酸、ヘルスケア、半導体材料"
     },
     {
-      "symbol": "213A",
-      "market": "JP",
-      "name": "上場インデックスファンド日経半導体株",
-      "tier": 3,
-      "tags": [],
-      "note": "半導体、半導体株ETF、日本の半導体関連株指数連動"
-    },
-    {
       "symbol": "285A",
       "market": "JP",
       "name": "キオクシアホールディングス",
-      "tier": 2,
+      "tier": 1,
       "tags": [
         "radar",
         "earnings"
