@@ -4,7 +4,7 @@
       "symbol": "3099",
       "market": "JP",
       "name": "三越伊勢丹ホールディングス",
-      "tier": 2,
+      "tier": 3,
       "tags": [
         "radar",
         "earnings"
@@ -78,7 +78,7 @@
       "symbol": "2802",
       "market": "JP",
       "name": "味の素",
-      "tier": 3,
+      "tier": 5,
       "tags": [
         "radar",
         "earnings"
@@ -100,7 +100,7 @@
       "symbol": "4004",
       "market": "JP",
       "name": "レゾナックHD",
-      "tier": 3,
+      "tier": 5,
       "tags": [
         "radar",
         "earnings"
@@ -111,7 +111,7 @@
       "symbol": "8035",
       "market": "JP",
       "name": "東京エレクトロン",
-      "tier": 3,
+      "tier": 4,
       "tags": [
         "radar",
         "earnings"
@@ -152,7 +152,7 @@
       "symbol": "6981",
       "market": "JP",
       "name": "村田製作所",
-      "tier": 3,
+      "tier": 4,
       "tags": [
         "radar",
         "earnings"
@@ -163,7 +163,7 @@
       "symbol": "6857",
       "market": "JP",
       "name": "アドバンテスト",
-      "tier": 3,
+      "tier": 5,
       "tags": [
         "earnings"
       ],
@@ -173,7 +173,7 @@
       "symbol": "7735",
       "market": "JP",
       "name": "SCREENホールディングス",
-      "tier": 3,
+      "tier": 5,
       "tags": [
         "earnings"
       ],
@@ -183,7 +183,7 @@
       "symbol": "6674",
       "market": "JP",
       "name": "ジーエス・ユアサ コーポレーション",
-      "tier": 2,
+      "tier": 3,
       "tags": [
         "earnings"
       ],
@@ -193,7 +193,7 @@
       "symbol": "6723",
       "market": "JP",
       "name": "ルネサスエレクトロニクス",
-      "tier": 4,
+      "tier": 5,
       "tags": [
         "earnings"
       ],
@@ -203,7 +203,7 @@
       "symbol": "6963",
       "market": "JP",
       "name": "ローム",
-      "tier": 4,
+      "tier": 5,
       "tags": [
         "radar",
         "earnings"
@@ -235,7 +235,7 @@
       "symbol": "7130",
       "market": "JP",
       "name": "ヤマエグループホールディングス",
-      "tier": 3,
+      "tier": 4,
       "tags": [
         "earnings"
       ],
@@ -245,7 +245,7 @@
       "symbol": "5801",
       "market": "JP",
       "name": "古河電気工業",
-      "tier": 5,
+      "tier": 6,
       "tags": [
         "radar",
         "earnings"
@@ -256,7 +256,7 @@
       "symbol": "4186",
       "market": "JP",
       "name": "東京応化工業",
-      "tier": 5,
+      "tier": 6,
       "tags": [
         "earnings"
       ],
@@ -266,7 +266,7 @@
       "symbol": "5803",
       "market": "JP",
       "name": "フジクラ",
-      "tier": 5,
+      "tier": 6,
       "tags": [
         "earnings"
       ],
@@ -276,7 +276,7 @@
       "symbol": "4063",
       "market": "JP",
       "name": "信越化学工業",
-      "tier": 5,
+      "tier": 6,
       "tags": [
         "radar",
         "earnings"
@@ -287,7 +287,7 @@
       "symbol": "3436",
       "market": "JP",
       "name": "SUMCO",
-      "tier": 5,
+      "tier": 6,
       "tags": [
         "earnings"
       ],
@@ -297,7 +297,7 @@
       "symbol": "5016",
       "market": "JP",
       "name": "JX金属",
-      "tier": 5,
+      "tier": 6,
       "tags": [
         "earnings"
       ],
@@ -307,7 +307,7 @@
       "symbol": "7272",
       "market": "JP",
       "name": "ヤマハ発動機",
-      "tier": 3,
+      "tier": 4,
       "tags": [
         "earnings"
       ],
@@ -317,7 +317,7 @@
       "symbol": "1812",
       "market": "JP",
       "name": "鹿島建設",
-      "tier": 5,
+      "tier": 6,
       "tags": [
         "earnings"
       ],
@@ -327,7 +327,7 @@
       "symbol": "7267",
       "market": "JP",
       "name": "本田技研工業",
-      "tier": 3,
+      "tier": 4,
       "tags": [
         "earnings"
       ],
@@ -358,7 +358,7 @@
       "symbol": "7201",
       "market": "JP",
       "name": "日産自動車",
-      "tier": 5,
+      "tier": 6,
       "tags": [
         "earnings"
       ],
