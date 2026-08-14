@@ -399,7 +399,7 @@
       "symbol": "GOOGL",
       "market": "US",
       "name": "Alphabet",
-      "tier": 2,
+      "tier": 1,
       "tags": [
         "radar",
         "earnings"
@@ -410,7 +410,7 @@
       "symbol": "AMZN",
       "market": "US",
       "name": "Amazon",
-      "tier": 2,
+      "tier": 1,
       "tags": [
         "radar",
         "earnings"
@@ -421,7 +421,7 @@
       "symbol": "NVDA",
       "market": "US",
       "name": "NVIDIA",
-      "tier": 2,
+      "tier": 1,
       "tags": [
         "radar",
         "earnings"
@@ -432,7 +432,7 @@
       "symbol": "MSFT",
       "market": "US",
       "name": "Microsoft",
-      "tier": 2,
+      "tier": 1,
       "tags": [
         "radar",
         "earnings"
@@ -443,7 +443,7 @@
       "symbol": "MU",
       "market": "US",
       "name": "Micron Technology",
-      "tier": 2,
+      "tier": 1,
       "tags": [
         "earnings"
       ],
@@ -453,17 +453,77 @@
       "symbol": "SNDK",
       "market": "US",
       "name": "Sandisk",
-      "tier": 2,
+      "tier": 1,
       "tags": [
         "earnings"
       ],
       "note": "半導体、NAND、フラッシュメモリ、SSD、データセンター、BiCS"
     },
     {
+      "symbol": "JPM",
+      "market": "US",
+      "name": "JPMorgan Chase",
+      "tier": 2,
+      "tags": [
+        "earnings"
+      ],
+      "note": "銀行、米国大手銀行、投資銀行、カード、金利、信用環境"
+    },
+    {
+      "symbol": "BAC",
+      "market": "US",
+      "name": "Bank of America",
+      "tier": 2,
+      "tags": [
+        "earnings"
+      ],
+      "note": "銀行、米国大手銀行、個人・法人金融、カード、金利、信用環境"
+    },
+    {
+      "symbol": "C",
+      "market": "US",
+      "name": "Citigroup",
+      "tier": 2,
+      "tags": [
+        "earnings"
+      ],
+      "note": "銀行、米国大手銀行、国際金融、法人金融、カード、金利、信用環境"
+    },
+    {
+      "symbol": "WFC",
+      "market": "US",
+      "name": "Wells Fargo",
+      "tier": 2,
+      "tags": [
+        "earnings"
+      ],
+      "note": "銀行、米国大手銀行、個人・法人金融、住宅ローン、金利、信用環境"
+    },
+    {
+      "symbol": "GS",
+      "market": "US",
+      "name": "Goldman Sachs",
+      "tier": 2,
+      "tags": [
+        "earnings"
+      ],
+      "note": "金融、投資銀行、トレーディング、資産運用、資本市場"
+    },
+    {
+      "symbol": "MS",
+      "market": "US",
+      "name": "Morgan Stanley",
+      "tier": 2,
+      "tags": [
+        "earnings"
+      ],
+      "note": "金融、投資銀行、ウェルスマネジメント、資産運用、資本市場"
+    },
+    {
       "symbol": "META",
       "market": "US",
       "name": "Meta Platforms",
-      "tier": 2,
+      "tier": 3,
       "tags": [
         "earnings"
       ],

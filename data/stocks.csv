@@ -37,11 +37,17 @@ symbol,market,name,tier,tags,note
 000660,KR,SK hynix,2,earnings,半導体、DRAM、NAND、HBM、AIサーバー、メモリ価格
 005930,KR,Samsung Electronics,2,earnings,半導体、DRAM、NAND、HBM、ファウンドリ、スマートフォン、ディスプレイ
 AAPL,US,Apple,1,"radar,earnings",iPhone、サービス、Apple Silicon、デバイス需要、米国大型テック
-AMZN,US,Amazon,2,"radar,earnings",AWS、EC、広告、クラウド需要、hyperscaler CAPEX
-GOOGL,US,Alphabet,2,"radar,earnings",Google Cloud、検索広告、YouTube、TPU、AI インフラ、データセンター投資
-META,US,Meta Platforms,2,earnings,広告、Family of Apps、Reality Labs、AI、データセンター投資
-MSFT,US,Microsoft,2,"radar,earnings",Azure、OpenAI 関連、AI データセンター投資、クラウド CAPEX
-MU,US,Micron Technology,2,earnings,半導体、DRAM、NAND、HBM、データセンター、メモリ価格
-NVDA,US,NVIDIA,2,"radar,earnings",AI GPU、データセンター向け半導体、AI サーバー需要の先行指標
-SNDK,US,Sandisk,2,earnings,半導体、NAND、フラッシュメモリ、SSD、データセンター、BiCS
+AMZN,US,Amazon,1,"radar,earnings",AWS、EC、広告、クラウド需要、hyperscaler CAPEX
+GOOGL,US,Alphabet,1,"radar,earnings",Google Cloud、検索広告、YouTube、TPU、AI インフラ、データセンター投資
+MSFT,US,Microsoft,1,"radar,earnings",Azure、OpenAI 関連、AI データセンター投資、クラウド CAPEX
+MU,US,Micron Technology,1,earnings,半導体、DRAM、NAND、HBM、データセンター、メモリ価格
+NVDA,US,NVIDIA,1,"radar,earnings",AI GPU、データセンター向け半導体、AI サーバー需要の先行指標
+SNDK,US,Sandisk,1,earnings,半導体、NAND、フラッシュメモリ、SSD、データセンター、BiCS
+BAC,US,Bank of America,2,earnings,銀行、米国大手銀行、個人・法人金融、カード、金利、信用環境
+C,US,Citigroup,2,earnings,銀行、米国大手銀行、国際金融、法人金融、カード、金利、信用環境
+GS,US,Goldman Sachs,2,earnings,金融、投資銀行、トレーディング、資産運用、資本市場
+JPM,US,JPMorgan Chase,2,earnings,銀行、米国大手銀行、投資銀行、カード、金利、信用環境
+MS,US,Morgan Stanley,2,earnings,金融、投資銀行、ウェルスマネジメント、資産運用、資本市場
+WFC,US,Wells Fargo,2,earnings,銀行、米国大手銀行、個人・法人金融、住宅ローン、金利、信用環境
+META,US,Meta Platforms,3,earnings,広告、Family of Apps、Reality Labs、AI、データセンター投資
 TER,US,Teradyne,3,earnings,半導体、テスト装置、SoC・メモリテスト、AI・データセンター、産業用ロボット
