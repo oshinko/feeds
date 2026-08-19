@@ -53,6 +53,7 @@ https://raw.githubusercontent.com/oshinko/feeds/main/calendars/earnings.ics
 | FOMC | FRB |
 | 日銀金融政策決定会合 | 日本銀行 |
 | 日銀「主な意見」 | 日本銀行 |
+| 世界半導体売上高 | SIA / WSTS |
 
 #### スポット登録
 
@@ -83,6 +84,8 @@ FOMC は、FRB 公式の `FOMC Meetings` カレンダーで会合日を確認し
 日銀金融政策決定会合は、日銀公式の Monetary Policy Meetings の予定表で会合日と結果公表日を確認して登録します。原則として結果公表日を終日イベントとして登録します。展望レポート公表対象会合は `DESCRIPTION` に明記します。
 
 日銀「主な意見」は、日銀公式の Monetary Policy Meetings の予定表で公表日を確認して登録します。原則として公表日の 8:50（日本時間）で登録し、`DESCRIPTION` に対象となる会合日を明記します。
+
+世界半導体売上高は、SIA が公表する WSTS 集計の月次データを確認します。公表日は通常毎月 4 日から 6 日前後で変動するため、毎月 5 日の終日イベントを「公表確認（目安）」として `RRULE` で繰り返し登録します。このイベントは公表日を確定するものではなく、実際の公表日が前後する場合も確認漏れを防ぐためのリマインダーとして扱います。
 
 ## 更新手順
 
@@ -158,6 +161,9 @@ macro-us-{slug}-{yyyymmdd}@feeds.osnk
 # 日本マクロ指標
 macro-jp-{slug}-{yyyymmdd}@feeds.osnk
 
+# グローバル指標の繰り返し確認
+macro-global-{slug}-{series-start-yyyymmdd}@feeds.osnk
+
 # 金融政策
 fomc-{yyyymmdd}@feeds.osnk
 fomc-minutes-{yyyymmdd}@feeds.osnk
@@ -179,6 +185,7 @@ macro-us-pce-gdp-claims-durable-20260625@feeds.osnk
 macro-us-cpi-20260714@feeds.osnk
 macro-us-employment-situation-20260702@feeds.osnk
 macro-us-pce-gdp-20260730@feeds.osnk
+macro-global-semiconductor-sales-20260905@feeds.osnk
 fomc-20260729@feeds.osnk
 boj-mpm-20260731@feeds.osnk
 boj-mpm-opinions-20260810@feeds.osnk
