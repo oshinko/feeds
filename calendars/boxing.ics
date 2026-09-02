@@ -366,24 +366,24 @@ END:VEVENT
 BEGIN:VEVENT
 UID:boxing-20260908-imanaga-vs-jun-minho@feeds.osnk
 DTSTAMP:20260726T070856Z
-LAST-MODIFIED:20260726T070856Z
-SEQUENCE:1
+LAST-MODIFIED:20260902T102901Z
+SEQUENCE:2
 DTSTART;VALUE=DATE:20260908
 DTEND;VALUE=DATE:20260909
 SUMMARY:今永 虎雅 vs Jun Min-ho
-DESCRIPTION:対象選手: 今永 虎雅 / 対戦相手: Jun Min-ho / OPBF東洋太平洋ライト級タイトルマッチ・初防衛戦 / 興行: Lemino BOXING PHOENIX BATTLE 160 / 会場: 後楽園ホール
+DESCRIPTION:対象選手: 今永 虎雅 / 対戦相手: Jun Min-ho / OPBF東洋太平洋ライト級タイトルマッチ・初防衛戦 / 興行: Lemino BOXING PHOENIX BATTLE 160 / 会場: 後楽園ホール / 興行開始: 18:00 / 配信: Lemino 17:50開始予定
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:boxing-20260908-matsumoto-vs-kitani@feeds.osnk
 DTSTAMP:20260726T070856Z
-LAST-MODIFIED:20260726T070856Z
-SEQUENCE:1
+LAST-MODIFIED:20260902T102901Z
+SEQUENCE:2
 DTSTART;VALUE=DATE:20260908
 DTEND;VALUE=DATE:20260909
 SUMMARY:松本 圭佑 vs 木谷 陸
-DESCRIPTION:対象選手: 松本 圭佑 / 対戦相手: 木谷 陸 / スーパーフェザー級1000万円トーナメント準決勝8回戦 / 興行: Lemino BOXING PHOENIX BATTLE 160 / 会場: 後楽園ホール / 興行開始: 18:00
+DESCRIPTION:対象選手: 松本 圭佑 / 対戦相手: 木谷 陸 / スーパーフェザー級1000万円トーナメント準決勝8回戦 / 興行: Lemino BOXING PHOENIX BATTLE 160 / 会場: 後楽園ホール / 興行開始: 18:00 / 配信: Lemino 17:50開始予定
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -402,36 +402,36 @@ END:VEVENT
 BEGIN:VEVENT
 UID:boxing-20260927-takuma-inoue-vs-nasukawa@feeds.osnk
 DTSTAMP:20260726T070856Z
-LAST-MODIFIED:20260822T000000Z
-SEQUENCE:2
+LAST-MODIFIED:20260902T102901Z
+SEQUENCE:3
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
 SUMMARY:井上 拓真 vs 那須川 天心
-DESCRIPTION:対象選手: 井上 拓真、那須川 天心 / WBC世界バンタム級タイトルマッチ / 興行: Prime Video Boxing 16 / 会場: TOYOTA ARENA TOKYO / 配信: Prime Video 17:00開始予定
+DESCRIPTION:対象選手: 井上 拓真、那須川 天心 / WBC世界バンタム級タイトルマッチ / 興行: Prime Video Boxing 16 / 会場: TOYOTA ARENA TOKYO / 興行開始: 16:30 / 配信: Prime Video 17:00開始予定
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:boxing-868148-20260927-tsuboi-vs-malajika@feeds.osnk
 DTSTAMP:20260822T000000Z
-LAST-MODIFIED:20260822T000000Z
-SEQUENCE:1
+LAST-MODIFIED:20260902T102901Z
+SEQUENCE:2
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
 SUMMARY:坪井 智也 vs リカルド・マラジカ
-DESCRIPTION:対象選手: 坪井 智也 / 対戦相手: リカルド・マラジカ / WBC世界スーパーフライ級王座決定戦 / 興行: Prime Video Boxing 16 / 会場: TOYOTA ARENA TOKYO / 配信: Prime Video 17:00開始予定 / 試合順未定
+DESCRIPTION:対象選手: 坪井 智也 / 対戦相手: リカルド・マラジカ / WBC世界スーパーフライ級王座決定戦 / 興行: Prime Video Boxing 16 / 会場: TOYOTA ARENA TOKYO / 興行開始: 16:30 / 配信: Prime Video 17:00開始予定 / 試合順未定
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:boxing-898844-20260927-nishida-vs-goodman@feeds.osnk
 DTSTAMP:20260822T000000Z
-LAST-MODIFIED:20260822T000000Z
-SEQUENCE:1
+LAST-MODIFIED:20260902T102901Z
+SEQUENCE:2
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
 SUMMARY:西田 凌佑 vs サム・グッドマン
-DESCRIPTION:対象選手: 西田 凌佑 / 対戦相手: サム・グッドマン / IBF世界スーパーバンタム級暫定王座決定戦 / 興行: Prime Video Boxing 16 / 会場: TOYOTA ARENA TOKYO / 配信: Prime Video 17:00開始予定 / 試合順未定
+DESCRIPTION:対象選手: 西田 凌佑 / 対戦相手: サム・グッドマン / IBF世界スーパーバンタム級暫定王座決定戦 / 興行: Prime Video Boxing 16 / 会場: TOYOTA ARENA TOKYO / 興行開始: 16:30 / 配信: Prime Video 17:00開始予定 / 試合順未定
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
