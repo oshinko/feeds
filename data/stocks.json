@@ -287,7 +287,7 @@
       "symbol": "3436",
       "market": "JP",
       "name": "SUMCO",
-      "tier": 6,
+      "tier": 5,
       "tags": [
         "earnings"
       ],
@@ -317,7 +317,7 @@
       "symbol": "1812",
       "market": "JP",
       "name": "鹿島建設",
-      "tier": 6,
+      "tier": 3,
       "tags": [
         "earnings"
       ],
@@ -363,6 +363,36 @@
         "earnings"
       ],
       "note": "輸送用機器、四輪、自動車、事業再建"
+    },
+    {
+      "symbol": "3923",
+      "market": "JP",
+      "name": "ラクス",
+      "tier": 3,
+      "tags": [
+        "earnings"
+      ],
+      "note": "情報・通信業、クラウドSaaS、楽楽精算、楽楽明細、中小企業DX"
+    },
+    {
+      "symbol": "8002",
+      "market": "JP",
+      "name": "丸紅",
+      "tier": 3,
+      "tags": [
+        "earnings"
+      ],
+      "note": "卸売業、総合商社、電力・インフラ、食料・農業、資源"
+    },
+    {
+      "symbol": "9843",
+      "market": "JP",
+      "name": "ニトリホールディングス",
+      "tier": 3,
+      "tags": [
+        "earnings"
+      ],
+      "note": "小売業、家具・インテリア、国内消費、為替、物流"
     },
     {
       "symbol": "000660",
