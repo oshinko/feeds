@@ -462,12 +462,197 @@ END:VEVENT
 BEGIN:VEVENT
 UID:boxing-1130028-20261029-sakai-vs-petch@feeds.osnk
 DTSTAMP:20260925T000000Z
-LAST-MODIFIED:20260925T000000Z
-SEQUENCE:1
+LAST-MODIFIED:20261019T012618Z
+SEQUENCE:2
 DTSTART;VALUE=DATE:20261029
 DTEND;VALUE=DATE:20261030
 SUMMARY:坂井 優太 vs ペッチ・ソー・チットパッタナ
-DESCRIPTION:対象選手: 坂井 優太 / 対戦相手: ペッチ・ソー・チットパッタナ / 54.0kg契約8回戦 / 興行: Lemino BOXING PHOENIX BATTLE 162 / 会場: 後楽園ホール / 興行開始: 17:45 / 配信: Lemino
+DESCRIPTION:対象選手: 坂井 優太 / 対戦相手: ペッチ・ソー・チットパッタナ / 54.0kg契約8回戦 / 興行: Lemino BOXING PHOENIX BATTLE 162 / 会場: 後楽園ホール / 興行開始: 17:45予定（坂井戦の開始時刻ではない） / 配信: Lemino / 試合開始時刻未定
+URL:https://www.ohashi-gym.com/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:boxing-1013365-20261101-reito-tsutsumi-vs-rojas@feeds.osnk
+DTSTAMP:20261019T012618Z
+LAST-MODIFIED:20261019T012618Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:堤 麗斗 vs レイムンド・ロハス・ガルシア
+DESCRIPTION:対象選手: 堤 麗斗 / 対戦相手: レイムンド・ロハス・ガルシア / スーパーフェザー級・プロ6戦目 / 興行: メキシコVS世界 / 会場: サウジアラビア・リヤド / 現地日付: 2026-10-31 / 日本時間では2026-11-01 / 興行開始: 日本時間01:00予定（堤戦の開始時刻ではない） / 試合開始時刻未定
+URL:https://boxmob.jp/sp/schedule/index.html?s=1&sid=8092
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:boxing-747308-20261104-taniguchi-vs-trinidad@feeds.osnk
+DTSTAMP:20261019T012618Z
+LAST-MODIFIED:20261019T012618Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:谷口 将隆 vs エルソン・トリニダード
+DESCRIPTION:対象選手: 谷口 将隆 / 対戦相手: エルソン・トリニダード / ライトフライ級8回戦 / 興行: TREASURE BOXING PROMOTION 15 / 会場: 後楽園ホール / 興行開始: 17:45 / 配信: U-NEXT 17:45開始予定 / 試合開始時刻未定
+URL:https://boxmob.jp/sp/schedule/index.html?s=1&sid=8240
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:boxing-718508-20261107-fan-meeting-tokyo@feeds.osnk
+DTSTAMP:20261019T012618Z
+LAST-MODIFIED:20261019T012618Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Tokyo:20261107T170000
+DTEND;TZID=Asia/Tokyo:20261107T183000
+SUMMARY:中谷 潤人 BIGBANGプレミアムファンミーティング（東京）
+DESCRIPTION:対象選手: 中谷 潤人 / 会場: 六本木グランドタワー DMM.com 24F イベントスペース / 開場: 16:00予定 / 開演: 17:00予定 / 公演時間: 約90分予定・終了時刻は目安 / トーク・質問コーナーなど
+LOCATION:六本木グランドタワー DMM.com 24F イベントスペース
+URL:https://junto.jp/news?no=T5vsCn6dscv930sscFsYs
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:boxing-731145-20261107-hata-vs-sagawa@feeds.osnk
+DTSTAMP:20261019T012618Z
+LAST-MODIFIED:20261019T012618Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:波田 大和 vs 佐川 遼
+DESCRIPTION:対象選手: 波田 大和 / 対戦相手: 佐川 遼 / OPBF東洋太平洋スーパーフェザー級タイトルマッチ10回戦・5度目の防衛戦 / 興行: DYNAMIC GLOVE on U-NEXT Vol.49 / 会場: 後楽園ホール / 興行開始: 17:45 / 配信: U-NEXT 17:45開始予定 / 試合開始時刻未定
+URL:https://boxmob.jp/sp/schedule/index.html?s=1&sid=8203
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:boxing-535757-20261107-ogawa-vs-lee@feeds.osnk
+DTSTAMP:20261019T012618Z
+LAST-MODIFIED:20261019T012618Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:尾川 堅一 vs イ・ジェウ
+DESCRIPTION:対象選手: 尾川 堅一 / 対戦相手: イ・ジェウ / 131ポンド契約10回戦 / 興行: DYNAMIC GLOVE on U-NEXT Vol.49 / 会場: 後楽園ホール / 興行開始: 17:45 / 配信: U-NEXT 17:45開始予定 / 試合開始時刻未定
+URL:https://boxmob.jp/sp/schedule/index.html?s=1&sid=8203
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:boxing-718508-20261108-fan-meeting-nagoya@feeds.osnk
+DTSTAMP:20261019T012618Z
+LAST-MODIFIED:20261019T012618Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Tokyo:20261108T140000
+DTEND;TZID=Asia/Tokyo:20261108T153000
+SUMMARY:中谷 潤人 BIGBANGプレミアムファンミーティング（名古屋）
+DESCRIPTION:対象選手: 中谷 潤人 / 会場: 中京テレビ 多目的スペース プラザC / 開場: 13:00予定 / 開演: 14:00予定 / 公演時間: 約90分予定・終了時刻は目安 / トーク・質問コーナーなど
+LOCATION:中京テレビ 多目的スペース プラザC
+URL:https://junto.jp/news?no=T5vsCn6dscv930sscFsYs
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:boxing-871989-20261110-narai-vs-saito@feeds.osnk
+DTSTAMP:20261019T012618Z
+LAST-MODIFIED:20261019T012618Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:奈良井 翼 vs 齋藤 麗王
+DESCRIPTION:対象選手: 奈良井 翼 / 対戦相手: 齋藤 麗王 / 日本スーパーフェザー級タイトルマッチ10回戦 / 興行: Lemino BOXING PHOENIX BATTLE 163 / 会場: 後楽園ホール / 興行開始: 17:45 / 配信: Lemino 17:35開始予定 / 試合開始時刻未定
+URL:https://boxmob.jp/sp/schedule/index.html?s=1&sid=8207
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:boxing-1182099-20261121-yokoyama-vs-tba@feeds.osnk
+DTSTAMP:20261019T012618Z
+LAST-MODIFIED:20261019T012618Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:横山 葵海 vs 対戦相手未定
+DESCRIPTION:対象選手: 横山 葵海 / 対戦相手未定 / バンタム級8回戦 / 興行: TREASURE BOXING PROMOTION 16 / 会場: 後楽園ホール / 興行開始: 17:45予定 / 試合開始時刻未定 / 配信未発表
+URL:https://boxmob.jp/sp/schedule/index.html?s=1&sid=8241
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:boxing-752510-20261126-yabuki-vs-fajardo@feeds.osnk
+DTSTAMP:20261019T012618Z
+LAST-MODIFIED:20261019T012618Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:矢吹 正道 vs ミエル・ファハルド
+DESCRIPTION:対象選手: 矢吹 正道 / 対戦相手: ミエル・ファハルド / IBF世界フライ級タイトルマッチ12回戦・3度目の防衛戦 / 興行: NTTドコモ Presents Lemino BOXING ダブル世界タイトルマッチ / 会場: EBARA WAVE アリーナおおた（大田区総合体育館） / 興行開始: 15:30予定 / 配信: Lemino 15:30開始予定 / メインイベント・試合開始時刻未定
+URL:https://boxmob.jp/sp/schedule/index.html?s=1&sid=8219
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:boxing-990774-20261126-takei-vs-oshima@feeds.osnk
+DTSTAMP:20261019T012618Z
+LAST-MODIFIED:20261019T012618Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:武居 由樹 vs 大嶋 剣心
+DESCRIPTION:対象選手: 武居 由樹 / 対戦相手: 大嶋 剣心 / スーパーバンタム級8回戦 / 興行: NTTドコモ Presents Lemino BOXING ダブル世界タイトルマッチ / 会場: EBARA WAVE アリーナおおた（大田区総合体育館） / 興行開始: 15:30予定 / 配信: Lemino 15:30開始予定 / 第5試合・試合開始時刻未定
+URL:https://boxmob.jp/sp/schedule/index.html?s=1&sid=8219
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:boxing-806436-20261126-rikiishi-vs-roda@feeds.osnk
+DTSTAMP:20261019T012618Z
+LAST-MODIFIED:20261019T012618Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:力石 政法 vs メルチョル・ロダ
+DESCRIPTION:対象選手: 力石 政法 / 対戦相手: メルチョル・ロダ / スーパーフェザー級8回戦 / 興行: NTTドコモ Presents Lemino BOXING ダブル世界タイトルマッチ / 会場: EBARA WAVE アリーナおおた（大田区総合体育館） / 興行開始: 15:30予定 / 配信: Lemino 15:30開始予定 / 第3試合・試合開始時刻未定
+URL:https://boxmob.jp/sp/schedule/index.html?s=1&sid=8219
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:boxing-20261129-masuda-vs-seiya-tsutsumi@feeds.osnk
+DTSTAMP:20261019T012618Z
+LAST-MODIFIED:20261019T012618Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:増田 陸 vs 堤 聖也
+DESCRIPTION:対象選手: 増田 陸、堤 聖也 / WBA世界バンタム級タイトルマッチ12回戦 / 興行: U-NEXT BOXING.7 トリプル世界タイトルマッチ / 会場: 両国国技館 / 配信: U-NEXT 17:00開始予定（試合開始時刻ではない） / メインイベント・試合開始時刻未定
+URL:https://help.unext.jp/info-video/detail/info137c
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:boxing-692967-20261129-teraji-vs-amador@feeds.osnk
+DTSTAMP:20261019T012618Z
+LAST-MODIFIED:20261019T012618Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:寺地 拳四朗 vs ハシエル・アマドル
+DESCRIPTION:対象選手: 寺地 拳四朗 / 対戦相手: ハシエル・アマドル / WBO世界スーパーフライ級タイトルマッチ12回戦・初防衛戦 / 興行: U-NEXT BOXING.7 トリプル世界タイトルマッチ / 会場: 両国国技館 / 配信: U-NEXT 17:00開始予定（試合開始時刻ではない） / 試合開始時刻未定
+URL:https://help.unext.jp/info-video/detail/info137c
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:boxing-685429-20261129-akui-vs-jimenez@feeds.osnk
+DTSTAMP:20261019T012618Z
+LAST-MODIFIED:20261019T012618Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:阿久井 政悟 vs ダビド・ヒメネス
+DESCRIPTION:対象選手: 阿久井 政悟 / 対戦相手: ダビド・ヒメネス / WBA世界スーパーフライ級タイトルマッチ12回戦 / 興行: U-NEXT BOXING.7 トリプル世界タイトルマッチ / 会場: 両国国技館 / 配信: U-NEXT 17:00開始予定（試合開始時刻ではない） / 試合開始時刻未定
+URL:https://help.unext.jp/info-video/detail/info137c
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
