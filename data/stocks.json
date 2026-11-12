@@ -47,7 +47,7 @@
       "symbol": "8316",
       "market": "JP",
       "name": "三井住友フィナンシャルグループ",
-      "tier": 2,
+      "tier": 3,
       "tags": [
         "earnings"
       ],
@@ -67,7 +67,7 @@
       "symbol": "8766",
       "market": "JP",
       "name": "東京海上ホールディングス",
-      "tier": 3,
+      "tier": 2,
       "tags": [
         "radar",
         "earnings"
@@ -89,7 +89,7 @@
       "symbol": "285A",
       "market": "JP",
       "name": "キオクシアホールディングス",
-      "tier": 1,
+      "tier": 2,
       "tags": [
         "radar",
         "earnings"
@@ -122,7 +122,7 @@
       "symbol": "7762",
       "market": "JP",
       "name": "シチズン時計",
-      "tier": 3,
+      "tier": 2,
       "tags": [
         "earnings"
       ],
@@ -168,6 +168,16 @@
         "earnings"
       ],
       "note": "半導体、テスト装置、SoC・メモリテスタ、AI・HPC、高性能DRAM"
+    },
+    {
+      "symbol": "6890",
+      "market": "JP",
+      "name": "フェローテック",
+      "tier": 5,
+      "tags": [
+        "earnings"
+      ],
+      "note": ""
     },
     {
       "symbol": "7735",
@@ -307,7 +317,7 @@
       "symbol": "7272",
       "market": "JP",
       "name": "ヤマハ発動機",
-      "tier": 4,
+      "tier": 3,
       "tags": [
         "earnings"
       ],
@@ -317,7 +327,7 @@
       "symbol": "1812",
       "market": "JP",
       "name": "鹿島建設",
-      "tier": 3,
+      "tier": 4,
       "tags": [
         "earnings"
       ],
@@ -327,7 +337,7 @@
       "symbol": "7267",
       "market": "JP",
       "name": "本田技研工業",
-      "tier": 4,
+      "tier": 3,
       "tags": [
         "earnings"
       ],
@@ -375,10 +385,20 @@
       "note": "情報・通信業、クラウドSaaS、楽楽精算、楽楽明細、中小企業DX"
     },
     {
+      "symbol": "9449",
+      "market": "JP",
+      "name": "GMOインターネットグループ",
+      "tier": 3,
+      "tags": [
+        "earnings"
+      ],
+      "note": ""
+    },
+    {
       "symbol": "8002",
       "market": "JP",
       "name": "丸紅",
-      "tier": 3,
+      "tier": 4,
       "tags": [
         "earnings"
       ],
